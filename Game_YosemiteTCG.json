@@ -55,12 +55,7 @@
         "layout": {
           "direction": "column",
           "isSymetricalForOpponents": true,
-          "content": [
-            "Territory",
-            "Reapers",
-            "Harvesters",
-            "Energy"
-          ]
+          "content": []
         },
         "categoriesAlreadyOnBoard": [],
         "autoPlayFromHand": {
