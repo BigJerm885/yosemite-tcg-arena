@@ -6,14 +6,18 @@
       "front": {
         "name": "Rapier Shield Knight",
         "type": "Harvester",
-        "cost": "1",
+        "cost": "2",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Human_Rapier_Shield_Knight.png",
         "isHorizontal": false
       }
     },
     "name": "Rapier Shield Knight",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "2",
+    "faction": "Human",
+    "rarity": "Uncommon",
+    "size": 2,
+    "mobility": 5
   },
   "007": {
     "id": "007",
@@ -22,14 +26,18 @@
       "front": {
         "name": "Tribal Barbarian Chief Hammer",
         "type": "Harvester",
-        "cost": "1",
+        "cost": "3",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Human_Tribal_Barbarian_Chief_Hammer.png",
         "isHorizontal": false
       }
     },
     "name": "Tribal Barbarian Chief Hammer",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "3",
+    "faction": "Human",
+    "rarity": "Uncommon",
+    "size": 3,
+    "mobility": 4
   },
   "008": {
     "id": "008",
@@ -38,14 +46,18 @@
       "front": {
         "name": "Goku Energy Fighter",
         "type": "Harvester",
-        "cost": "1",
+        "cost": "2",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Human_Goku_Energy_Fighter.png",
         "isHorizontal": false
       }
     },
     "name": "Goku Energy Fighter",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "2",
+    "faction": "Human",
+    "rarity": "Rare",
+    "size": 2,
+    "mobility": 5
   },
   "010": {
     "id": "010",
@@ -54,14 +66,18 @@
       "front": {
         "name": "Haunted Swordsman",
         "type": "Reaper",
-        "cost": "1",
+        "cost": "2",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Human_Haunted_Swordsman.png",
         "isHorizontal": false
       }
     },
     "name": "Haunted Swordsman",
     "type": "Reaper",
-    "cost": "1"
+    "cost": "2",
+    "faction": "Human",
+    "rarity": "Uncommon",
+    "size": 2,
+    "mobility": 5
   },
   "012": {
     "id": "012",
@@ -70,14 +86,18 @@
       "front": {
         "name": "Royal Knight Axe",
         "type": "Reaper",
-        "cost": "1",
+        "cost": "3",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Human_Royal_Knight_Axe.png",
         "isHorizontal": false
       }
     },
     "name": "Royal Knight Axe",
     "type": "Reaper",
-    "cost": "1"
+    "cost": "3",
+    "faction": "Human",
+    "rarity": "Uncommon",
+    "size": 3,
+    "mobility": 4
   },
   "013": {
     "id": "013",
@@ -86,14 +106,18 @@
       "front": {
         "name": "Blue Gold Tank",
         "type": "Reaper",
-        "cost": "1",
+        "cost": "4",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Human_Blue_Gold_Tank.png",
         "isHorizontal": false
       }
     },
     "name": "Blue Gold Tank",
     "type": "Reaper",
-    "cost": "1"
+    "cost": "4",
+    "faction": "Human",
+    "rarity": "Rare",
+    "size": 4,
+    "mobility": 2
   },
   "014": {
     "id": "014",
@@ -102,14 +126,18 @@
       "front": {
         "name": "Hooded Wraith Knight",
         "type": "Reaper",
-        "cost": "1",
+        "cost": "2",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Human_Hooded_Wraith_Knight.png",
         "isHorizontal": false
       }
     },
     "name": "Hooded Wraith Knight",
     "type": "Reaper",
-    "cost": "1"
+    "cost": "2",
+    "faction": "Human",
+    "rarity": "Rare",
+    "size": 2,
+    "mobility": 6
   },
   "015": {
     "id": "015",
@@ -118,14 +146,18 @@
       "front": {
         "name": "Horned Highlord",
         "type": "Reaper",
-        "cost": "1",
+        "cost": "3",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Human_Horned_Highlord.png",
         "isHorizontal": false
       }
     },
     "name": "Horned Highlord",
     "type": "Reaper",
-    "cost": "1"
+    "cost": "3",
+    "faction": "Regal",
+    "rarity": "Rare",
+    "size": 3,
+    "mobility": 5
   },
   "016": {
     "id": "016",
@@ -134,14 +166,18 @@
       "front": {
         "name": "Royal Knight Greatsword",
         "type": "Reaper",
-        "cost": "1",
+        "cost": "3",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Human_Royal_Knight_Greatsword.png",
         "isHorizontal": false
       }
     },
     "name": "Royal Knight Greatsword",
     "type": "Reaper",
-    "cost": "1"
+    "cost": "3",
+    "faction": "Human",
+    "rarity": "Rare",
+    "size": 3,
+    "mobility": 5
   },
   "019": {
     "id": "019",
@@ -150,14 +186,18 @@
       "front": {
         "name": "Stone Rhino Brute",
         "type": "Harvester",
-        "cost": "1",
+        "cost": "3",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Regal_Stone_Rhino_Brute.png",
         "isHorizontal": false
       }
     },
     "name": "Stone Rhino Brute",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "3",
+    "faction": "Regal",
+    "rarity": "Common",
+    "size": 3,
+    "mobility": 3
   },
   "020": {
     "id": "020",
@@ -166,14 +206,18 @@
       "front": {
         "name": "Coral Horned Warden",
         "type": "Harvester",
-        "cost": "1",
+        "cost": "3",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Regal_Coral_Horned_Warden.png",
         "isHorizontal": false
       }
     },
     "name": "Coral Horned Warden",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "3",
+    "faction": "Regal",
+    "rarity": "Uncommon",
+    "size": 3,
+    "mobility": 4
   },
   "021": {
     "id": "021",
@@ -182,14 +226,18 @@
       "front": {
         "name": "Eagle Paladin",
         "type": "Harvester",
-        "cost": "1",
+        "cost": "2",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Regal_Eagle_Paladin.png",
         "isHorizontal": false
       }
     },
     "name": "Eagle Paladin",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "2",
+    "faction": "Regal",
+    "rarity": "Uncommon",
+    "size": 2,
+    "mobility": 8
   },
   "022": {
     "id": "022",
@@ -198,14 +246,18 @@
       "front": {
         "name": "Sun Gryphon",
         "type": "Harvester",
-        "cost": "1",
+        "cost": "2",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Regal_Sun_Gryphon.png",
         "isHorizontal": false
       }
     },
     "name": "Sun Gryphon",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "2",
+    "faction": "Regal",
+    "rarity": "Uncommon",
+    "size": 2,
+    "mobility": 8
   },
   "023": {
     "id": "023",
@@ -214,14 +266,18 @@
       "front": {
         "name": "Wolf Marshal",
         "type": "Harvester",
-        "cost": "1",
+        "cost": "2",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Regal_Wolf_Marshal.png",
         "isHorizontal": false
       }
     },
     "name": "Wolf Marshal",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "2",
+    "faction": "Regal",
+    "rarity": "Uncommon",
+    "size": 2,
+    "mobility": 6
   },
   "024": {
     "id": "024",
@@ -230,14 +286,18 @@
       "front": {
         "name": "Alien Skull Arbiter",
         "type": "Harvester",
-        "cost": "1",
+        "cost": "2",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Regal_Alien_Skull_Arbiter.png",
         "isHorizontal": false
       }
     },
     "name": "Alien Skull Arbiter",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "2",
+    "faction": "Regal",
+    "rarity": "Rare",
+    "size": 2,
+    "mobility": 5
   },
   "025": {
     "id": "025",
@@ -246,14 +306,18 @@
       "front": {
         "name": "Elephant Defender",
         "type": "Harvester",
-        "cost": "1",
+        "cost": "4",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Regal_Elephant_Defender.png",
         "isHorizontal": false
       }
     },
     "name": "Elephant Defender",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "4",
+    "faction": "Regal",
+    "rarity": "Rare",
+    "size": 4,
+    "mobility": 2
   },
   "030": {
     "id": "030",
@@ -262,14 +326,18 @@
       "front": {
         "name": "Horned Highlord",
         "type": "Reaper",
-        "cost": "1",
+        "cost": "3",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Regal_Horned_Highlord.png",
         "isHorizontal": false
       }
     },
     "name": "Horned Highlord",
     "type": "Reaper",
-    "cost": "1"
+    "cost": "3",
+    "faction": "Regal",
+    "rarity": "Rare",
+    "size": 3,
+    "mobility": 5
   },
   "032": {
     "id": "032",
@@ -278,14 +346,18 @@
       "front": {
         "name": "Rhino Knight",
         "type": "Reaper",
-        "cost": "1",
+        "cost": "4",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Regal_Rhino_Knight.png",
         "isHorizontal": false
       }
     },
     "name": "Rhino Knight",
     "type": "Reaper",
-    "cost": "1"
+    "cost": "4",
+    "faction": "Regal",
+    "rarity": "Rare",
+    "size": 4,
+    "mobility": 3
   },
   "033": {
     "id": "033",
@@ -294,14 +366,18 @@
       "front": {
         "name": "Horned Colossus",
         "type": "Reaper",
-        "cost": "1",
+        "cost": "4",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Regal_Horned_Colossus.png",
         "isHorizontal": false
       }
     },
     "name": "Horned Colossus",
     "type": "Reaper",
-    "cost": "1"
+    "cost": "4",
+    "faction": "Regal",
+    "rarity": "Super Rare",
+    "size": 4,
+    "mobility": 2
   },
   "035": {
     "id": "035",
@@ -310,14 +386,18 @@
       "front": {
         "name": "Seraph Champion",
         "type": "Reaper",
-        "cost": "1",
+        "cost": "3",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Regal_Seraph_Champion.png",
         "isHorizontal": false
       }
     },
     "name": "Seraph Champion",
     "type": "Reaper",
-    "cost": "1"
+    "cost": "3",
+    "faction": "Regal",
+    "rarity": "Super Rare",
+    "size": 3,
+    "mobility": 6
   },
   "039": {
     "id": "039",
@@ -326,14 +406,18 @@
       "front": {
         "name": "Frost Saurian",
         "type": "Harvester",
-        "cost": "1",
+        "cost": "2",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Frost_Saurian.png",
         "isHorizontal": false
       }
     },
     "name": "Frost Saurian",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "2",
+    "faction": "Savage",
+    "rarity": "Common",
+    "size": 2,
+    "mobility": 5
   },
   "040": {
     "id": "040",
@@ -349,7 +433,11 @@
     },
     "name": "Glider Kit",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "1",
+    "faction": "Savage",
+    "rarity": "Common",
+    "size": 1,
+    "mobility": 8
   },
   "041": {
     "id": "041",
@@ -358,14 +446,18 @@
       "front": {
         "name": "Pink Saurian",
         "type": "Harvester",
-        "cost": "1",
+        "cost": "2",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Pink_Saurian.png",
         "isHorizontal": false
       }
     },
     "name": "Pink Saurian",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "2",
+    "faction": "Savage",
+    "rarity": "Common",
+    "size": 2,
+    "mobility": 6
   },
   "043": {
     "id": "043",
@@ -374,14 +466,18 @@
       "front": {
         "name": "Beetle Rex",
         "type": "Harvester",
-        "cost": "1",
+        "cost": "3",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Beetle_Rex.png",
         "isHorizontal": false
       }
     },
     "name": "Beetle Rex",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "3",
+    "faction": "Savage",
+    "rarity": "Uncommon",
+    "size": 3,
+    "mobility": 4
   },
   "044": {
     "id": "044",
@@ -390,14 +486,18 @@
       "front": {
         "name": "Bonehelm Tusker",
         "type": "Harvester",
-        "cost": "1",
+        "cost": "3",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Bonehelm_Tusker.png",
         "isHorizontal": false
       }
     },
     "name": "Bonehelm Tusker",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "3",
+    "faction": "Savage",
+    "rarity": "Uncommon",
+    "size": 3,
+    "mobility": 3
   },
   "046": {
     "id": "046",
@@ -406,14 +506,18 @@
       "front": {
         "name": "Glacier Saurian",
         "type": "Harvester",
-        "cost": "1",
+        "cost": "3",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Glacier_Saurian.png",
         "isHorizontal": false
       }
     },
     "name": "Glacier Saurian",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "3",
+    "faction": "Savage",
+    "rarity": "Uncommon",
+    "size": 3,
+    "mobility": 4
   },
   "047": {
     "id": "047",
@@ -422,14 +526,18 @@
       "front": {
         "name": "Ice Fisher Crab",
         "type": "Harvester",
-        "cost": "1",
+        "cost": "2",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Ice_Fisher_Crab.png",
         "isHorizontal": false
       }
     },
     "name": "Ice Fisher Crab",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "2",
+    "faction": "Savage",
+    "rarity": "Uncommon",
+    "size": 2,
+    "mobility": 4
   },
   "049": {
     "id": "049",
@@ -438,14 +546,18 @@
       "front": {
         "name": "Rhino Duo",
         "type": "Harvester",
-        "cost": "1",
+        "cost": "2",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Rhino_Duo.png",
         "isHorizontal": false
       }
     },
     "name": "Rhino Duo",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "2",
+    "faction": "Savage",
+    "rarity": "Uncommon",
+    "size": 2,
+    "mobility": 5
   },
   "050": {
     "id": "050",
@@ -454,14 +566,18 @@
       "front": {
         "name": "Trilobite Swimmer",
         "type": "Harvester",
-        "cost": "1",
+        "cost": "2",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Trilobite_Swimmer.png",
         "isHorizontal": false
       }
     },
     "name": "Trilobite Swimmer",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "2",
+    "faction": "Savage",
+    "rarity": "Uncommon",
+    "size": 2,
+    "mobility": 4
   },
   "051": {
     "id": "051",
@@ -470,14 +586,18 @@
       "front": {
         "name": "Moss Titan",
         "type": "Harvester",
-        "cost": "1",
+        "cost": "4",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Moss_Titan.png",
         "isHorizontal": false
       }
     },
     "name": "Moss Titan",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "4",
+    "faction": "Savage",
+    "rarity": "Rare",
+    "size": 4,
+    "mobility": 2
   },
   "052": {
     "id": "052",
@@ -486,14 +606,18 @@
       "front": {
         "name": "Bone Skull Beast",
         "type": "Reaper",
-        "cost": "1",
+        "cost": "3",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Bone_Skull_Beast.png",
         "isHorizontal": false
       }
     },
     "name": "Bone Skull Beast",
     "type": "Reaper",
-    "cost": "1"
+    "cost": "3",
+    "faction": "Savage",
+    "rarity": "Uncommon",
+    "size": 3,
+    "mobility": 4
   },
   "053": {
     "id": "053",
@@ -502,14 +626,18 @@
       "front": {
         "name": "Magma Raptor",
         "type": "Reaper",
-        "cost": "1",
+        "cost": "2",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Magma_Raptor.png",
         "isHorizontal": false
       }
     },
     "name": "Magma Raptor",
     "type": "Reaper",
-    "cost": "1"
+    "cost": "2",
+    "faction": "Savage",
+    "rarity": "Uncommon",
+    "size": 2,
+    "mobility": 7
   },
   "054": {
     "id": "054",
@@ -518,14 +646,18 @@
       "front": {
         "name": "Azure Wyvern Duo",
         "type": "Reaper",
-        "cost": "1",
+        "cost": "2",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Azure_Wyvern_Duo.png",
         "isHorizontal": false
       }
     },
     "name": "Azure Wyvern Duo",
     "type": "Reaper",
-    "cost": "1"
+    "cost": "2",
+    "faction": "Savage",
+    "rarity": "Rare",
+    "size": 2,
+    "mobility": 8
   },
   "055": {
     "id": "055",
@@ -534,14 +666,18 @@
       "front": {
         "name": "Bone Bear",
         "type": "Reaper",
-        "cost": "1",
+        "cost": "3",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Bone_Bear.png",
         "isHorizontal": false
       }
     },
     "name": "Bone Bear",
     "type": "Reaper",
-    "cost": "1"
+    "cost": "3",
+    "faction": "Savage",
+    "rarity": "Rare",
+    "size": 3,
+    "mobility": 4
   },
   "057": {
     "id": "057",
@@ -550,14 +686,18 @@
       "front": {
         "name": "Crimson Wyvern",
         "type": "Reaper",
-        "cost": "1",
+        "cost": "2",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Crimson_Wyvern.png",
         "isHorizontal": false
       }
     },
     "name": "Crimson Wyvern",
     "type": "Reaper",
-    "cost": "1"
+    "cost": "2",
+    "faction": "Savage",
+    "rarity": "Rare",
+    "size": 2,
+    "mobility": 8
   },
   "058": {
     "id": "058",
@@ -573,7 +713,11 @@
     },
     "name": "Frost Roc",
     "type": "Reaper",
-    "cost": "1"
+    "cost": "1",
+    "faction": "Savage",
+    "rarity": "Rare",
+    "size": 1,
+    "mobility": 8
   },
   "059": {
     "id": "059",
@@ -582,14 +726,18 @@
       "front": {
         "name": "Hammer Croc",
         "type": "Reaper",
-        "cost": "1",
+        "cost": "3",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Hammer_Croc.png",
         "isHorizontal": false
       }
     },
     "name": "Hammer Croc",
     "type": "Reaper",
-    "cost": "1"
+    "cost": "3",
+    "faction": "Savage",
+    "rarity": "Rare",
+    "size": 3,
+    "mobility": 3
   },
   "060": {
     "id": "060",
@@ -598,14 +746,18 @@
       "front": {
         "name": "Ruby Emerald Drake",
         "type": "Reaper",
-        "cost": "1",
+        "cost": "2",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Ruby_Emerald_Drake.png",
         "isHorizontal": false
       }
     },
     "name": "Ruby Emerald Drake",
     "type": "Reaper",
-    "cost": "1"
+    "cost": "2",
+    "faction": "Savage",
+    "rarity": "Rare",
+    "size": 2,
+    "mobility": 7
   },
   "062": {
     "id": "062",
@@ -614,14 +766,18 @@
       "front": {
         "name": "Stone Rex",
         "type": "Reaper",
-        "cost": "1",
+        "cost": "4",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Stone_Rex.png",
         "isHorizontal": false
       }
     },
     "name": "Stone Rex",
     "type": "Reaper",
-    "cost": "1"
+    "cost": "4",
+    "faction": "Savage",
+    "rarity": "Rare",
+    "size": 4,
+    "mobility": 2
   },
   "064": {
     "id": "064",
@@ -630,14 +786,18 @@
       "front": {
         "name": "Crystal Colossus",
         "type": "Reaper",
-        "cost": "1",
+        "cost": "4",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Crystal_Colossus.png",
         "isHorizontal": false
       }
     },
     "name": "Crystal Colossus",
     "type": "Reaper",
-    "cost": "1"
+    "cost": "4",
+    "faction": "Savage",
+    "rarity": "Super Rare",
+    "size": 4,
+    "mobility": 2
   },
   "065": {
     "id": "065",
@@ -646,14 +806,18 @@
       "front": {
         "name": "Ember Phoenix",
         "type": "Reaper",
-        "cost": "1",
+        "cost": "2",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Ember_Phoenix.png",
         "isHorizontal": false
       }
     },
     "name": "Ember Phoenix",
     "type": "Reaper",
-    "cost": "1"
+    "cost": "2",
+    "faction": "Savage",
+    "rarity": "Super Rare",
+    "size": 2,
+    "mobility": 8
   },
   "067": {
     "id": "067",
@@ -662,14 +826,18 @@
       "front": {
         "name": "Spirit Tiger",
         "type": "Reaper",
-        "cost": "1",
+        "cost": "2",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Spirit_Tiger.png",
         "isHorizontal": false
       }
     },
     "name": "Spirit Tiger",
     "type": "Reaper",
-    "cost": "1"
+    "cost": "2",
+    "faction": "Savage",
+    "rarity": "Super Rare",
+    "size": 2,
+    "mobility": 7
   },
   "T001": {
     "id": "T001",
@@ -685,7 +853,9 @@
     },
     "name": "Treachery Marker",
     "type": "Marker",
-    "cost": "0"
+    "cost": "0",
+    "faction": "Neutral",
+    "rarity": "Token"
   },
   "C001": {
     "id": "C001",
@@ -701,7 +871,9 @@
     },
     "name": "Generic Creator",
     "type": "Creator",
-    "cost": "0"
+    "cost": "0",
+    "faction": "Neutral",
+    "rarity": "Token"
   },
   "002": {
     "id": "002",
@@ -710,14 +882,19 @@
       "front": {
         "name": "Power Fist Brute",
         "type": "Harvester",
-        "cost": "1",
+        "cost": "2",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Human_Power_Fist_Brute.png",
         "isHorizontal": false
       }
     },
     "name": "Power Fist Brute",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "2",
+    "faction": "Human",
+    "rarity": "Common",
+    "subfaction": "Marine",
+    "size": 2,
+    "mobility": 5
   },
   "068": {
     "id": "068",
@@ -726,14 +903,19 @@
       "front": {
         "name": "Blue Marine",
         "type": "Harvester",
-        "cost": "1",
+        "cost": "2",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Human_Blue_Marine.png",
         "isHorizontal": false
       }
     },
     "name": "Blue Marine",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "2",
+    "faction": "Human",
+    "rarity": "Common",
+    "subfaction": "Marine",
+    "size": 2,
+    "mobility": 5
   },
   "069": {
     "id": "069",
@@ -742,14 +924,19 @@
       "front": {
         "name": "Shock Trooper",
         "type": "Harvester",
-        "cost": "1",
+        "cost": "2",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Human_Shock_Trooper.png",
         "isHorizontal": false
       }
     },
     "name": "Shock Trooper",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "2",
+    "faction": "Human",
+    "rarity": "Common",
+    "subfaction": "Marine",
+    "size": 2,
+    "mobility": 4
   },
   "001": {
     "id": "001",
@@ -758,14 +945,19 @@
       "front": {
         "name": "Power Armor Marine",
         "type": "Reaper",
-        "cost": "1",
+        "cost": "2",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Human_Power_Armor_Marine.png",
         "isHorizontal": false
       }
     },
     "name": "Power Armor Marine",
     "type": "Reaper",
-    "cost": "1"
+    "cost": "2",
+    "faction": "Human",
+    "rarity": "Uncommon",
+    "subfaction": "Marine",
+    "size": 2,
+    "mobility": 6
   },
   "011": {
     "id": "011",
@@ -781,7 +973,12 @@
     },
     "name": "Rail Gun Trooper",
     "type": "Reaper",
-    "cost": "1"
+    "cost": "1",
+    "faction": "Human",
+    "rarity": "Uncommon",
+    "subfaction": "Marine",
+    "size": 1,
+    "mobility": 3
   },
   "004": {
     "id": "004",
@@ -790,14 +987,19 @@
       "front": {
         "name": "Greatsword Warrior",
         "type": "Harvester",
-        "cost": "1",
+        "cost": "3",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Human_Greatsword_Warrior.png",
         "isHorizontal": false
       }
     },
     "name": "Greatsword Warrior",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "3",
+    "faction": "Human",
+    "rarity": "Rare",
+    "subfaction": "Marine",
+    "size": 3,
+    "mobility": 3
   },
   "017": {
     "id": "017",
@@ -806,14 +1008,19 @@
       "front": {
         "name": "Saber Paladin",
         "type": "Reaper",
-        "cost": "1",
+        "cost": "2",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Human_Saber_Paladin.png",
         "isHorizontal": false
       }
     },
     "name": "Saber Paladin",
     "type": "Reaper",
-    "cost": "1"
+    "cost": "2",
+    "faction": "Human",
+    "rarity": "Rare",
+    "subfaction": "Marine",
+    "size": 2,
+    "mobility": 6
   },
   "006": {
     "id": "006",
@@ -822,14 +1029,19 @@
       "front": {
         "name": "Shield Gladiator",
         "type": "Harvester",
-        "cost": "1",
+        "cost": "2",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Human_Shield_Gladiator.png",
         "isHorizontal": false
       }
     },
     "name": "Shield Gladiator",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "2",
+    "faction": "Human",
+    "rarity": "Common",
+    "subfaction": "Marine",
+    "size": 2,
+    "mobility": 5
   },
   "003": {
     "id": "003",
@@ -845,7 +1057,12 @@
     },
     "name": "Grunt",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "1",
+    "faction": "Human",
+    "rarity": "Common",
+    "subfaction": "Marine",
+    "size": 1,
+    "mobility": 5
   },
   "070": {
     "id": "070",
@@ -861,7 +1078,12 @@
     },
     "name": "Healer",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "1",
+    "faction": "Human",
+    "rarity": "Uncommon",
+    "subfaction": "Marine",
+    "size": 1,
+    "mobility": 5
   },
   "071": {
     "id": "071",
@@ -870,14 +1092,19 @@
       "front": {
         "name": "Rail Gun",
         "type": "Harvester",
-        "cost": "1",
+        "cost": "2",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Human_Rail_Gun.png",
         "isHorizontal": false
       }
     },
     "name": "Rail Gun",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "2",
+    "faction": "Human",
+    "rarity": "Rare",
+    "subfaction": "Marine",
+    "size": 2,
+    "mobility": 4
   },
   "072": {
     "id": "072",
@@ -893,7 +1120,12 @@
     },
     "name": "Sniper",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "1",
+    "faction": "Human",
+    "rarity": "Uncommon",
+    "subfaction": "Marine",
+    "size": 1,
+    "mobility": 5
   },
   "073": {
     "id": "073",
@@ -902,14 +1134,19 @@
       "front": {
         "name": "Shock Veteran",
         "type": "Reaper",
-        "cost": "1",
+        "cost": "2",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Human_Shock_Veteran.png",
         "isHorizontal": false
       }
     },
     "name": "Shock Veteran",
     "type": "Reaper",
-    "cost": "1"
+    "cost": "2",
+    "faction": "Human",
+    "rarity": "Common",
+    "subfaction": "Marine",
+    "size": 2,
+    "mobility": 6
   },
   "074": {
     "id": "074",
@@ -918,14 +1155,19 @@
       "front": {
         "name": "Captain of Shock",
         "type": "Reaper",
-        "cost": "1",
+        "cost": "3",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Human_Captain_of_Shock.png",
         "isHorizontal": false
       }
     },
     "name": "Captain of Shock",
     "type": "Reaper",
-    "cost": "1"
+    "cost": "3",
+    "faction": "Human",
+    "rarity": "Rare",
+    "subfaction": "Marine",
+    "size": 3,
+    "mobility": 6
   },
   "009": {
     "id": "009",
@@ -934,14 +1176,19 @@
       "front": {
         "name": "Tank",
         "type": "Reaper",
-        "cost": "1",
+        "cost": "3",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Human_Tank.png",
         "isHorizontal": false
       }
     },
     "name": "Tank",
     "type": "Reaper",
-    "cost": "1"
+    "cost": "3",
+    "faction": "Human",
+    "rarity": "Epic",
+    "subfaction": "Marine",
+    "size": 3,
+    "mobility": 6
   },
   "075": {
     "id": "075",
@@ -950,14 +1197,19 @@
       "front": {
         "name": "Copter",
         "type": "Reaper",
-        "cost": "1",
+        "cost": "2",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Human_Copter.png",
         "isHorizontal": false
       }
     },
     "name": "Copter",
     "type": "Reaper",
-    "cost": "1"
+    "cost": "2",
+    "faction": "Human",
+    "rarity": "Epic",
+    "subfaction": "Marine",
+    "size": 2,
+    "mobility": 8
   },
   "076": {
     "id": "076",
@@ -973,7 +1225,10 @@
     },
     "name": "Kill Order",
     "type": "Tactic",
-    "cost": "4"
+    "cost": "4",
+    "faction": "Human",
+    "rarity": "Uncommon",
+    "subfaction": "Marine"
   },
   "077": {
     "id": "077",
@@ -989,7 +1244,10 @@
     },
     "name": "Shield Wall",
     "type": "Tactic",
-    "cost": "2"
+    "cost": "2",
+    "faction": "Human",
+    "rarity": "Rare",
+    "subfaction": "Marine"
   },
   "078": {
     "id": "078",
@@ -1005,7 +1263,10 @@
     },
     "name": "Field Report",
     "type": "Tactic",
-    "cost": "1"
+    "cost": "1",
+    "faction": "Human",
+    "rarity": "Common",
+    "subfaction": "Marine"
   },
   "079": {
     "id": "079",
@@ -1021,7 +1282,10 @@
     },
     "name": "Sniper Scope",
     "type": "Tactic",
-    "cost": "2"
+    "cost": "2",
+    "faction": "Human",
+    "rarity": "Uncommon",
+    "subfaction": "Marine"
   },
   "080": {
     "id": "080",
@@ -1037,7 +1301,10 @@
     },
     "name": "Reinforcements",
     "type": "Tactic",
-    "cost": "3"
+    "cost": "3",
+    "faction": "Human",
+    "rarity": "Common",
+    "subfaction": "Marine"
   },
   "038": {
     "id": "038",
@@ -1053,7 +1320,11 @@
     },
     "name": "Burrowkin",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "1",
+    "faction": "Savage",
+    "rarity": "Common",
+    "size": 1,
+    "mobility": 7
   },
   "056": {
     "id": "056",
@@ -1062,14 +1333,18 @@
       "front": {
         "name": "Crimson Kirin",
         "type": "Harvester",
-        "cost": "1",
+        "cost": "3",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Savage_Crimson_Kirin.png",
         "isHorizontal": false
       }
     },
     "name": "Crimson Kirin",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "3",
+    "faction": "Savage",
+    "rarity": "Uncommon",
+    "size": 3,
+    "mobility": 5
   },
   "037": {
     "id": "037",
@@ -1085,7 +1360,11 @@
     },
     "name": "Boulder Rabbit",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "1",
+    "faction": "Savage",
+    "rarity": "Common",
+    "size": 1,
+    "mobility": 6
   },
   "045": {
     "id": "045",
@@ -1094,14 +1373,18 @@
       "front": {
         "name": "Ember Gorilla",
         "type": "Harvester",
-        "cost": "1",
+        "cost": "3",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Savage_Ember_Gorilla.png",
         "isHorizontal": false
       }
     },
     "name": "Ember Gorilla",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "3",
+    "faction": "Savage",
+    "rarity": "Uncommon",
+    "size": 3,
+    "mobility": 6
   },
   "061": {
     "id": "061",
@@ -1110,14 +1393,18 @@
       "front": {
         "name": "Sabertooth Longneck",
         "type": "Harvester",
-        "cost": "1",
+        "cost": "2",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Savage_Sabertooth_Longneck.png",
         "isHorizontal": false
       }
     },
     "name": "Sabertooth Longneck",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "2",
+    "faction": "Savage",
+    "rarity": "Uncommon",
+    "size": 2,
+    "mobility": 8
   },
   "042": {
     "id": "042",
@@ -1126,14 +1413,18 @@
       "front": {
         "name": "Thunder Mouse",
         "type": "Harvester",
-        "cost": "1",
+        "cost": "2",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Savage_Thunder_Mouse.png",
         "isHorizontal": false
       }
     },
     "name": "Thunder Mouse",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "2",
+    "faction": "Savage",
+    "rarity": "Common",
+    "size": 2,
+    "mobility": 7
   },
   "063": {
     "id": "063",
@@ -1142,14 +1433,18 @@
       "front": {
         "name": "Crimson Dragon",
         "type": "Reaper",
-        "cost": "1",
+        "cost": "3",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Savage_Crimson_Dragon.png",
         "isHorizontal": false
       }
     },
     "name": "Crimson Dragon",
     "type": "Reaper",
-    "cost": "1"
+    "cost": "3",
+    "faction": "Savage",
+    "rarity": "Rare",
+    "size": 3,
+    "mobility": 7
   },
   "081": {
     "id": "081",
@@ -1158,14 +1453,18 @@
       "front": {
         "name": "Skullgrey",
         "type": "Reaper",
-        "cost": "1",
+        "cost": "2",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Savage_Skullgrey.png",
         "isHorizontal": false
       }
     },
     "name": "Skullgrey",
     "type": "Reaper",
-    "cost": "1"
+    "cost": "2",
+    "faction": "Savage",
+    "rarity": "Uncommon",
+    "size": 2,
+    "mobility": 4
   },
   "066": {
     "id": "066",
@@ -1174,14 +1473,18 @@
       "front": {
         "name": "Land Hammershark",
         "type": "Reaper",
-        "cost": "1",
+        "cost": "2",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Savage_Land_Hammershark.png",
         "isHorizontal": false
       }
     },
     "name": "Land Hammershark",
     "type": "Reaper",
-    "cost": "1"
+    "cost": "2",
+    "faction": "Savage",
+    "rarity": "Uncommon",
+    "size": 2,
+    "mobility": 6
   },
   "048": {
     "id": "048",
@@ -1190,14 +1493,18 @@
       "front": {
         "name": "Mantis Stag",
         "type": "Reaper",
-        "cost": "1",
+        "cost": "2",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Savage_Mantis_Stag.png",
         "isHorizontal": false
       }
     },
     "name": "Mantis Stag",
     "type": "Reaper",
-    "cost": "1"
+    "cost": "2",
+    "faction": "Savage",
+    "rarity": "Uncommon",
+    "size": 2,
+    "mobility": 7
   },
   "082": {
     "id": "082",
@@ -1213,7 +1520,9 @@
     },
     "name": "Marking Territory",
     "type": "Tactic",
-    "cost": "1"
+    "cost": "1",
+    "faction": "Savage",
+    "rarity": "Common"
   },
   "083": {
     "id": "083",
@@ -1229,7 +1538,9 @@
     },
     "name": "Midnight Hunt",
     "type": "Tactic",
-    "cost": "2"
+    "cost": "2",
+    "faction": "Savage",
+    "rarity": "Common"
   },
   "084": {
     "id": "084",
@@ -1245,7 +1556,9 @@
     },
     "name": "Evolved Vision",
     "type": "Tactic",
-    "cost": "2"
+    "cost": "2",
+    "faction": "Savage",
+    "rarity": "Common"
   },
   "085": {
     "id": "085",
@@ -1261,7 +1574,9 @@
     },
     "name": "Breeding Frenzy",
     "type": "Tactic",
-    "cost": "1"
+    "cost": "1",
+    "faction": "Savage",
+    "rarity": "Uncommon"
   },
   "086": {
     "id": "086",
@@ -1277,7 +1592,9 @@
     },
     "name": "Needless Bloodlust",
     "type": "Tactic",
-    "cost": "1"
+    "cost": "1",
+    "faction": "Savage",
+    "rarity": "Uncommon"
   },
   "087": {
     "id": "087",
@@ -1293,7 +1610,11 @@
     },
     "name": "Lava Scorpion",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "1",
+    "faction": "Living Earth",
+    "rarity": "Common",
+    "size": 1,
+    "mobility": 5
   },
   "088": {
     "id": "088",
@@ -1302,14 +1623,18 @@
       "front": {
         "name": "Mushroom Mound",
         "type": "Harvester",
-        "cost": "1",
+        "cost": "3",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_LivingEarth_Mushroom_Mound.png",
         "isHorizontal": false
       }
     },
     "name": "Mushroom Mound",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "3",
+    "faction": "Living Earth",
+    "rarity": "Uncommon",
+    "size": 3,
+    "mobility": 3
   },
   "089": {
     "id": "089",
@@ -1318,14 +1643,18 @@
       "front": {
         "name": "Grass Wolf",
         "type": "Harvester",
-        "cost": "1",
+        "cost": "2",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_LivingEarth_Grass_Wolf.png",
         "isHorizontal": false
       }
     },
     "name": "Grass Wolf",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "2",
+    "faction": "Living Earth",
+    "rarity": "Common",
+    "size": 2,
+    "mobility": 6
   },
   "090": {
     "id": "090",
@@ -1334,14 +1663,18 @@
       "front": {
         "name": "Treant",
         "type": "Harvester",
-        "cost": "1",
+        "cost": "3",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_LivingEarth_Treant.png",
         "isHorizontal": false
       }
     },
     "name": "Treant",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "3",
+    "faction": "Living Earth",
+    "rarity": "Uncommon",
+    "size": 3,
+    "mobility": 6
   },
   "091": {
     "id": "091",
@@ -1350,14 +1683,18 @@
       "front": {
         "name": "Water Serpent",
         "type": "Harvester",
-        "cost": "1",
+        "cost": "2",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_LivingEarth_Water_Serpent.png",
         "isHorizontal": false
       }
     },
     "name": "Water Serpent",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "2",
+    "faction": "Living Earth",
+    "rarity": "Common",
+    "size": 2,
+    "mobility": 5
   },
   "092": {
     "id": "092",
@@ -1366,14 +1703,18 @@
       "front": {
         "name": "Boulder Golem",
         "type": "Harvester",
-        "cost": "1",
+        "cost": "4",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_LivingEarth_Boulder_Golem.png",
         "isHorizontal": false
       }
     },
     "name": "Boulder Golem",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "4",
+    "faction": "Living Earth",
+    "rarity": "Rare",
+    "size": 4,
+    "mobility": 2
   },
   "093": {
     "id": "093",
@@ -1382,14 +1723,18 @@
       "front": {
         "name": "Living Mountain",
         "type": "Harvester",
-        "cost": "1",
+        "cost": "4",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_LivingEarth_Living_Mountain.png",
         "isHorizontal": false
       }
     },
     "name": "Living Mountain",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "4",
+    "faction": "Living Earth",
+    "rarity": "Rare",
+    "size": 4,
+    "mobility": 2
   },
   "094": {
     "id": "094",
@@ -1398,14 +1743,18 @@
       "front": {
         "name": "Vineweave Creature",
         "type": "Harvester",
-        "cost": "1",
+        "cost": "2",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_LivingEarth_Vineweave_Creature.png",
         "isHorizontal": false
       }
     },
     "name": "Vineweave Creature",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "2",
+    "faction": "Living Earth",
+    "rarity": "Common",
+    "size": 2,
+    "mobility": 6
   },
   "095": {
     "id": "095",
@@ -1414,14 +1763,18 @@
       "front": {
         "name": "Wind Cyclone",
         "type": "Harvester",
-        "cost": "1",
+        "cost": "3",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_LivingEarth_Wind_Cyclone.png",
         "isHorizontal": false
       }
     },
     "name": "Wind Cyclone",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "3",
+    "faction": "Living Earth",
+    "rarity": "Uncommon",
+    "size": 3,
+    "mobility": 5
   },
   "096": {
     "id": "096",
@@ -1437,7 +1790,11 @@
     },
     "name": "Wind Zephyr",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "1",
+    "faction": "Living Earth",
+    "rarity": "Common",
+    "size": 1,
+    "mobility": 6
   },
   "097": {
     "id": "097",
@@ -1453,7 +1810,11 @@
     },
     "name": "Geyser Totem",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "1",
+    "faction": "Living Earth",
+    "rarity": "Common",
+    "size": 1,
+    "mobility": 7
   },
   "098": {
     "id": "098",
@@ -1469,7 +1830,9 @@
     },
     "name": "Spreading Life",
     "type": "Tactic",
-    "cost": "2"
+    "cost": "2",
+    "faction": "Living Earth",
+    "rarity": "Common"
   },
   "099": {
     "id": "099",
@@ -1485,7 +1848,9 @@
     },
     "name": "Animate",
     "type": "Tactic",
-    "cost": "2"
+    "cost": "2",
+    "faction": "Living Earth",
+    "rarity": "Uncommon"
   },
   "100": {
     "id": "100",
@@ -1501,7 +1866,9 @@
     },
     "name": "Gentle Reaping",
     "type": "Tactic",
-    "cost": "0"
+    "cost": "0",
+    "faction": "Living Earth",
+    "rarity": "Common"
   },
   "101": {
     "id": "101",
@@ -1517,7 +1884,9 @@
     },
     "name": "Regrowth",
     "type": "Tactic",
-    "cost": "0"
+    "cost": "0",
+    "faction": "Living Earth",
+    "rarity": "Rare"
   },
   "031": {
     "id": "031",
@@ -1526,14 +1895,18 @@
       "front": {
         "name": "Raven Knight",
         "type": "Harvester",
-        "cost": "1",
+        "cost": "2",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Regal_Raven_Knight.png",
         "isHorizontal": false
       }
     },
     "name": "Raven Knight",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "2",
+    "faction": "Regal",
+    "rarity": "Uncommon",
+    "size": 2,
+    "mobility": 5
   },
   "028": {
     "id": "028",
@@ -1542,14 +1915,18 @@
       "front": {
         "name": "Ram Templar",
         "type": "Harvester",
-        "cost": "1",
+        "cost": "3",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Regal_Ram_Templar.png",
         "isHorizontal": false
       }
     },
     "name": "Ram Templar",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "3",
+    "faction": "Regal",
+    "rarity": "Uncommon",
+    "size": 3,
+    "mobility": 4
   },
   "034": {
     "id": "034",
@@ -1558,14 +1935,18 @@
       "front": {
         "name": "Lion King",
         "type": "Harvester",
-        "cost": "1",
+        "cost": "3",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Regal_Lion_King.png",
         "isHorizontal": false
       }
     },
     "name": "Lion King",
     "type": "Harvester",
-    "cost": "1"
+    "cost": "3",
+    "faction": "Regal",
+    "rarity": "Rare",
+    "size": 3,
+    "mobility": 7
   },
   "027": {
     "id": "027",
@@ -1574,14 +1955,18 @@
       "front": {
         "name": "Fox Duelist",
         "type": "Reaper",
-        "cost": "1",
+        "cost": "4",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Regal_Fox_Duelist.png",
         "isHorizontal": false
       }
     },
     "name": "Fox Duelist",
     "type": "Reaper",
-    "cost": "1"
+    "cost": "4",
+    "faction": "Regal",
+    "rarity": "Uncommon",
+    "size": 4,
+    "mobility": 6
   },
   "026": {
     "id": "026",
@@ -1590,14 +1975,18 @@
       "front": {
         "name": "Stag Highlord",
         "type": "Reaper",
-        "cost": "1",
+        "cost": "4",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Regal_Stag_Highlord.png",
         "isHorizontal": false
       }
     },
     "name": "Stag Highlord",
     "type": "Reaper",
-    "cost": "1"
+    "cost": "4",
+    "faction": "Regal",
+    "rarity": "Uncommon",
+    "size": 4,
+    "mobility": 6
   },
   "029": {
     "id": "029",
@@ -1606,14 +1995,19 @@
       "front": {
         "name": "War Rhino",
         "type": "Reaper",
-        "cost": "1",
+        "cost": "3",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Regal_War_Rhino.png",
         "isHorizontal": false
       }
     },
     "name": "War Rhino",
     "type": "Reaper",
-    "cost": "1"
+    "cost": "3",
+    "faction": "Regal",
+    "rarity": "Uncommon",
+    "subfaction": "Pet",
+    "size": 3,
+    "mobility": 7
   },
   "102": {
     "id": "102",
@@ -1629,7 +2023,12 @@
     },
     "name": "Lowborn Farmhand",
     "type": "Reaper",
-    "cost": "1"
+    "cost": "1",
+    "faction": "Regal",
+    "rarity": "Common",
+    "subfaction": "Lowborn",
+    "size": 1,
+    "mobility": 5
   },
   "103": {
     "id": "103",
@@ -1645,7 +2044,12 @@
     },
     "name": "Lowborn Arsonist",
     "type": "Reaper",
-    "cost": "1"
+    "cost": "1",
+    "faction": "Regal",
+    "rarity": "Common",
+    "subfaction": "Lowborn",
+    "size": 1,
+    "mobility": 6
   },
   "018": {
     "id": "018",
@@ -1654,14 +2058,18 @@
       "front": {
         "name": "Fallen Warrior",
         "type": "Reaper",
-        "cost": "1",
+        "cost": "2",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Regal_Fallen_Warrior.png",
         "isHorizontal": false
       }
     },
     "name": "Fallen Warrior",
     "type": "Reaper",
-    "cost": "1"
+    "cost": "2",
+    "faction": "Regal",
+    "rarity": "Uncommon",
+    "size": 2,
+    "mobility": 6
   },
   "036": {
     "id": "036",
@@ -1670,14 +2078,18 @@
       "front": {
         "name": "War Dragon",
         "type": "Reaper",
-        "cost": "1",
+        "cost": "4",
         "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Regal_War_Dragon.png",
         "isHorizontal": false
       }
     },
     "name": "War Dragon",
     "type": "Reaper",
-    "cost": "1"
+    "cost": "4",
+    "faction": "Regal",
+    "rarity": "Rare",
+    "size": 4,
+    "mobility": 4
   },
   "104": {
     "id": "104",
@@ -1693,7 +2105,9 @@
     },
     "name": "Regal Wings",
     "type": "Gear",
-    "cost": "3"
+    "cost": "3",
+    "faction": "Regal",
+    "rarity": "Uncommon"
   },
   "105": {
     "id": "105",
@@ -1709,7 +2123,9 @@
     },
     "name": "Royal War Banner",
     "type": "Gear",
-    "cost": "3"
+    "cost": "3",
+    "faction": "Regal",
+    "rarity": "Uncommon"
   },
   "106": {
     "id": "106",
@@ -1725,7 +2141,9 @@
     },
     "name": "Aegis Shield",
     "type": "Gear",
-    "cost": "5"
+    "cost": "5",
+    "faction": "Regal",
+    "rarity": "Rare"
   },
   "107": {
     "id": "107",
@@ -1741,6 +2159,8 @@
     },
     "name": "Ember Brand",
     "type": "Gear",
-    "cost": "2"
+    "cost": "2",
+    "faction": "Regal",
+    "rarity": "Common"
   }
 }
