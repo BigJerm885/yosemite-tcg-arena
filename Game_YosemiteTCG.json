@@ -19,7 +19,9 @@
         "gameplay": "Classic",
         "customCategories": [
           "Harvester",
-          "Reaper"
+          "Reaper",
+          "Tactic",
+          "Gear"
         ]
       }
     ]

@@ -1,68 +1,4 @@
 {
-  "001": {
-    "id": "001",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Power Armor Marine",
-        "type": "Harvester",
-        "cost": "1",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Human_Power_Armor_Marine.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Power Armor Marine",
-    "type": "Harvester",
-    "cost": "1"
-  },
-  "002": {
-    "id": "002",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Power Fist Brute",
-        "type": "Harvester",
-        "cost": "1",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Human_Power_Fist_Brute.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Power Fist Brute",
-    "type": "Harvester",
-    "cost": "1"
-  },
-  "003": {
-    "id": "003",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Rail Trooper",
-        "type": "Harvester",
-        "cost": "1",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Human_Rail_Trooper.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Rail Trooper",
-    "type": "Harvester",
-    "cost": "1"
-  },
-  "004": {
-    "id": "004",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Greybeard Greatsword Warrior",
-        "type": "Harvester",
-        "cost": "1",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Human_Greybeard_Greatsword_Warrior.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Greybeard Greatsword Warrior",
-    "type": "Harvester",
-    "cost": "1"
-  },
   "005": {
     "id": "005",
     "isToken": false,
@@ -76,22 +12,6 @@
       }
     },
     "name": "Rapier Shield Knight",
-    "type": "Harvester",
-    "cost": "1"
-  },
-  "006": {
-    "id": "006",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Spear Gladiator Shield",
-        "type": "Harvester",
-        "cost": "1",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Human_Spear_Gladiator_Shield.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Spear Gladiator Shield",
     "type": "Harvester",
     "cost": "1"
   },
@@ -127,22 +47,6 @@
     "type": "Harvester",
     "cost": "1"
   },
-  "009": {
-    "id": "009",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Blue Tank",
-        "type": "Reaper",
-        "cost": "1",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Human_Blue_Tank.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Blue Tank",
-    "type": "Reaper",
-    "cost": "1"
-  },
   "010": {
     "id": "010",
     "isToken": false,
@@ -156,22 +60,6 @@
       }
     },
     "name": "Haunted Swordsman",
-    "type": "Reaper",
-    "cost": "1"
-  },
-  "011": {
-    "id": "011",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Rail Gun Trooper",
-        "type": "Reaper",
-        "cost": "1",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Human_Rail_Gun_Trooper.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Rail Gun Trooper",
     "type": "Reaper",
     "cost": "1"
   },
@@ -253,38 +141,6 @@
     },
     "name": "Royal Knight Greatsword",
     "type": "Reaper",
-    "cost": "1"
-  },
-  "017": {
-    "id": "017",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Saber Paladin",
-        "type": "Reaper",
-        "cost": "1",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Human_Saber_Paladin.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Saber Paladin",
-    "type": "Reaper",
-    "cost": "1"
-  },
-  "018": {
-    "id": "018",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Fallen Warrior",
-        "type": "Harvester",
-        "cost": "1",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Regal_Fallen_Warrior.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Fallen Warrior",
-    "type": "Harvester",
     "cost": "1"
   },
   "019": {
@@ -399,70 +255,6 @@
     "type": "Harvester",
     "cost": "1"
   },
-  "026": {
-    "id": "026",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Stag Highlord",
-        "type": "Harvester",
-        "cost": "1",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Regal_Stag_Highlord.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Stag Highlord",
-    "type": "Harvester",
-    "cost": "1"
-  },
-  "027": {
-    "id": "027",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Fox Duelist",
-        "type": "Reaper",
-        "cost": "1",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Regal_Fox_Duelist.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Fox Duelist",
-    "type": "Reaper",
-    "cost": "1"
-  },
-  "028": {
-    "id": "028",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Ram Templar",
-        "type": "Reaper",
-        "cost": "1",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Regal_Ram_Templar.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Ram Templar",
-    "type": "Reaper",
-    "cost": "1"
-  },
-  "029": {
-    "id": "029",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "War Rhino",
-        "type": "Reaper",
-        "cost": "1",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Regal_War_Rhino.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "War Rhino",
-    "type": "Reaper",
-    "cost": "1"
-  },
   "030": {
     "id": "030",
     "isToken": false,
@@ -476,22 +268,6 @@
       }
     },
     "name": "Horned Highlord",
-    "type": "Reaper",
-    "cost": "1"
-  },
-  "031": {
-    "id": "031",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Raven Winged Knight",
-        "type": "Reaper",
-        "cost": "1",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Regal_Raven_Winged_Knight.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Raven Winged Knight",
     "type": "Reaper",
     "cost": "1"
   },
@@ -527,22 +303,6 @@
     "type": "Reaper",
     "cost": "1"
   },
-  "034": {
-    "id": "034",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Lion King",
-        "type": "Reaper",
-        "cost": "1",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Regal_Lion_King.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Lion King",
-    "type": "Reaper",
-    "cost": "1"
-  },
   "035": {
     "id": "035",
     "isToken": false,
@@ -557,54 +317,6 @@
     },
     "name": "Seraph Champion",
     "type": "Reaper",
-    "cost": "1"
-  },
-  "036": {
-    "id": "036",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "War Dragon Mount",
-        "type": "Reaper",
-        "cost": "1",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Regal_War_Dragon_Mount.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "War Dragon Mount",
-    "type": "Reaper",
-    "cost": "1"
-  },
-  "037": {
-    "id": "037",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Boulder Rabbit",
-        "type": "Harvester",
-        "cost": "1",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Boulder_Rabbit.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Boulder Rabbit",
-    "type": "Harvester",
-    "cost": "1"
-  },
-  "038": {
-    "id": "038",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Burrow Digger",
-        "type": "Harvester",
-        "cost": "1",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Burrow_Digger.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Burrow Digger",
-    "type": "Harvester",
     "cost": "1"
   },
   "039": {
@@ -655,22 +367,6 @@
     "type": "Harvester",
     "cost": "1"
   },
-  "042": {
-    "id": "042",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Thunder Mouse",
-        "type": "Harvester",
-        "cost": "1",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Thunder_Mouse.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Thunder Mouse",
-    "type": "Harvester",
-    "cost": "1"
-  },
   "043": {
     "id": "043",
     "isToken": false,
@@ -703,22 +399,6 @@
     "type": "Harvester",
     "cost": "1"
   },
-  "045": {
-    "id": "045",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Ember Gorilla",
-        "type": "Harvester",
-        "cost": "1",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Ember_Gorilla.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Ember Gorilla",
-    "type": "Harvester",
-    "cost": "1"
-  },
   "046": {
     "id": "046",
     "isToken": false,
@@ -748,22 +428,6 @@
       }
     },
     "name": "Ice Fisher Crab",
-    "type": "Harvester",
-    "cost": "1"
-  },
-  "048": {
-    "id": "048",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Mantis Stag",
-        "type": "Harvester",
-        "cost": "1",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Mantis_Stag.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Mantis Stag",
     "type": "Harvester",
     "cost": "1"
   },
@@ -879,22 +543,6 @@
     "type": "Reaper",
     "cost": "1"
   },
-  "056": {
-    "id": "056",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Crimson Kirin",
-        "type": "Reaper",
-        "cost": "1",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Crimson_Kirin.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Crimson Kirin",
-    "type": "Reaper",
-    "cost": "1"
-  },
   "057": {
     "id": "057",
     "isToken": false,
@@ -959,22 +607,6 @@
     "type": "Reaper",
     "cost": "1"
   },
-  "061": {
-    "id": "061",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Sabertooth Liger Longneck",
-        "type": "Reaper",
-        "cost": "1",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Sabertooth_Liger_Longneck.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Sabertooth Liger Longneck",
-    "type": "Reaper",
-    "cost": "1"
-  },
   "062": {
     "id": "062",
     "isToken": false,
@@ -988,22 +620,6 @@
       }
     },
     "name": "Stone Rex",
-    "type": "Reaper",
-    "cost": "1"
-  },
-  "063": {
-    "id": "063",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Crimson Dragon",
-        "type": "Reaper",
-        "cost": "1",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Crimson_Dragon.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Crimson Dragon",
     "type": "Reaper",
     "cost": "1"
   },
@@ -1036,22 +652,6 @@
       }
     },
     "name": "Ember Phoenix",
-    "type": "Reaper",
-    "cost": "1"
-  },
-  "066": {
-    "id": "066",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Land Hammershark",
-        "type": "Reaper",
-        "cost": "1",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Land_Hammershark.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Land Hammershark",
     "type": "Reaper",
     "cost": "1"
   },
@@ -1102,5 +702,1045 @@
     "name": "Generic Creator",
     "type": "Creator",
     "cost": "0"
+  },
+  "002": {
+    "id": "002",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Power Fist Brute",
+        "type": "Harvester",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Human_Power_Fist_Brute.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Power Fist Brute",
+    "type": "Harvester",
+    "cost": "1"
+  },
+  "068": {
+    "id": "068",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Blue Marine",
+        "type": "Harvester",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Human_Blue_Marine.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Blue Marine",
+    "type": "Harvester",
+    "cost": "1"
+  },
+  "069": {
+    "id": "069",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Shock Trooper",
+        "type": "Harvester",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Human_Shock_Trooper.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Shock Trooper",
+    "type": "Harvester",
+    "cost": "1"
+  },
+  "001": {
+    "id": "001",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Power Armor Marine",
+        "type": "Reaper",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Human_Power_Armor_Marine.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Power Armor Marine",
+    "type": "Reaper",
+    "cost": "1"
+  },
+  "011": {
+    "id": "011",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Rail Gun Trooper",
+        "type": "Reaper",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Human_Rail_Gun_Trooper.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Rail Gun Trooper",
+    "type": "Reaper",
+    "cost": "1"
+  },
+  "004": {
+    "id": "004",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Greatsword Warrior",
+        "type": "Harvester",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Human_Greatsword_Warrior.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Greatsword Warrior",
+    "type": "Harvester",
+    "cost": "1"
+  },
+  "017": {
+    "id": "017",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Saber Paladin",
+        "type": "Reaper",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Human_Saber_Paladin.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Saber Paladin",
+    "type": "Reaper",
+    "cost": "1"
+  },
+  "006": {
+    "id": "006",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Shield Gladiator",
+        "type": "Harvester",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Human_Shield_Gladiator.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Shield Gladiator",
+    "type": "Harvester",
+    "cost": "1"
+  },
+  "003": {
+    "id": "003",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Grunt",
+        "type": "Harvester",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Human_Grunt.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Grunt",
+    "type": "Harvester",
+    "cost": "1"
+  },
+  "070": {
+    "id": "070",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Healer",
+        "type": "Harvester",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Human_Healer.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Healer",
+    "type": "Harvester",
+    "cost": "1"
+  },
+  "071": {
+    "id": "071",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Rail Gun",
+        "type": "Harvester",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Human_Rail_Gun.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Rail Gun",
+    "type": "Harvester",
+    "cost": "1"
+  },
+  "072": {
+    "id": "072",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Sniper",
+        "type": "Harvester",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Human_Sniper.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Sniper",
+    "type": "Harvester",
+    "cost": "1"
+  },
+  "073": {
+    "id": "073",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Shock Veteran",
+        "type": "Reaper",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Human_Shock_Veteran.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Shock Veteran",
+    "type": "Reaper",
+    "cost": "1"
+  },
+  "074": {
+    "id": "074",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Captain of Shock",
+        "type": "Reaper",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Human_Captain_of_Shock.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Captain of Shock",
+    "type": "Reaper",
+    "cost": "1"
+  },
+  "009": {
+    "id": "009",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Tank",
+        "type": "Reaper",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Human_Tank.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Tank",
+    "type": "Reaper",
+    "cost": "1"
+  },
+  "075": {
+    "id": "075",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Copter",
+        "type": "Reaper",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Human_Copter.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Copter",
+    "type": "Reaper",
+    "cost": "1"
+  },
+  "076": {
+    "id": "076",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Kill Order",
+        "type": "Tactic",
+        "cost": "4",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Human_Kill_Order.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Kill Order",
+    "type": "Tactic",
+    "cost": "4"
+  },
+  "077": {
+    "id": "077",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Shield Wall",
+        "type": "Tactic",
+        "cost": "2",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Human_Shield_Wall.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Shield Wall",
+    "type": "Tactic",
+    "cost": "2"
+  },
+  "078": {
+    "id": "078",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Field Report",
+        "type": "Tactic",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Human_Field_Report.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Field Report",
+    "type": "Tactic",
+    "cost": "1"
+  },
+  "079": {
+    "id": "079",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Sniper Scope",
+        "type": "Tactic",
+        "cost": "2",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Human_Sniper_Scope.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Sniper Scope",
+    "type": "Tactic",
+    "cost": "2"
+  },
+  "080": {
+    "id": "080",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Reinforcements",
+        "type": "Tactic",
+        "cost": "3",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Human_Reinforcements.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Reinforcements",
+    "type": "Tactic",
+    "cost": "3"
+  },
+  "038": {
+    "id": "038",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Burrowkin",
+        "type": "Harvester",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Savage_Burrowkin.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Burrowkin",
+    "type": "Harvester",
+    "cost": "1"
+  },
+  "056": {
+    "id": "056",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Crimson Kirin",
+        "type": "Harvester",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Savage_Crimson_Kirin.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Crimson Kirin",
+    "type": "Harvester",
+    "cost": "1"
+  },
+  "037": {
+    "id": "037",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Boulder Rabbit",
+        "type": "Harvester",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Savage_Boulder_Rabbit.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Boulder Rabbit",
+    "type": "Harvester",
+    "cost": "1"
+  },
+  "045": {
+    "id": "045",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Ember Gorilla",
+        "type": "Harvester",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Savage_Ember_Gorilla.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Ember Gorilla",
+    "type": "Harvester",
+    "cost": "1"
+  },
+  "061": {
+    "id": "061",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Sabertooth Longneck",
+        "type": "Harvester",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Savage_Sabertooth_Longneck.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Sabertooth Longneck",
+    "type": "Harvester",
+    "cost": "1"
+  },
+  "042": {
+    "id": "042",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Thunder Mouse",
+        "type": "Harvester",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Savage_Thunder_Mouse.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Thunder Mouse",
+    "type": "Harvester",
+    "cost": "1"
+  },
+  "063": {
+    "id": "063",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Crimson Dragon",
+        "type": "Reaper",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Savage_Crimson_Dragon.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Crimson Dragon",
+    "type": "Reaper",
+    "cost": "1"
+  },
+  "081": {
+    "id": "081",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Skullgrey",
+        "type": "Reaper",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Savage_Skullgrey.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Skullgrey",
+    "type": "Reaper",
+    "cost": "1"
+  },
+  "066": {
+    "id": "066",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Land Hammershark",
+        "type": "Reaper",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Savage_Land_Hammershark.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Land Hammershark",
+    "type": "Reaper",
+    "cost": "1"
+  },
+  "048": {
+    "id": "048",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Mantis Stag",
+        "type": "Reaper",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Savage_Mantis_Stag.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Mantis Stag",
+    "type": "Reaper",
+    "cost": "1"
+  },
+  "082": {
+    "id": "082",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Marking Territory",
+        "type": "Tactic",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Savage_Marking_Territory.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Marking Territory",
+    "type": "Tactic",
+    "cost": "1"
+  },
+  "083": {
+    "id": "083",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Midnight Hunt",
+        "type": "Tactic",
+        "cost": "2",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Savage_Midnight_Hunt.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Midnight Hunt",
+    "type": "Tactic",
+    "cost": "2"
+  },
+  "084": {
+    "id": "084",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Evolved Vision",
+        "type": "Tactic",
+        "cost": "2",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Savage_Evolved_Vision.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Evolved Vision",
+    "type": "Tactic",
+    "cost": "2"
+  },
+  "085": {
+    "id": "085",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Breeding Frenzy",
+        "type": "Tactic",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Savage_Breeding_Frenzy.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Breeding Frenzy",
+    "type": "Tactic",
+    "cost": "1"
+  },
+  "086": {
+    "id": "086",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Needless Bloodlust",
+        "type": "Tactic",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Savage_Needless_Bloodlust.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Needless Bloodlust",
+    "type": "Tactic",
+    "cost": "1"
+  },
+  "087": {
+    "id": "087",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Lava Scorpion",
+        "type": "Harvester",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_LivingEarth_Lava_Scorpion.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Lava Scorpion",
+    "type": "Harvester",
+    "cost": "1"
+  },
+  "088": {
+    "id": "088",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Mushroom Mound",
+        "type": "Harvester",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_LivingEarth_Mushroom_Mound.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Mushroom Mound",
+    "type": "Harvester",
+    "cost": "1"
+  },
+  "089": {
+    "id": "089",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Grass Wolf",
+        "type": "Harvester",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_LivingEarth_Grass_Wolf.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Grass Wolf",
+    "type": "Harvester",
+    "cost": "1"
+  },
+  "090": {
+    "id": "090",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Treant",
+        "type": "Harvester",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_LivingEarth_Treant.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Treant",
+    "type": "Harvester",
+    "cost": "1"
+  },
+  "091": {
+    "id": "091",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Water Serpent",
+        "type": "Harvester",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_LivingEarth_Water_Serpent.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Water Serpent",
+    "type": "Harvester",
+    "cost": "1"
+  },
+  "092": {
+    "id": "092",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Boulder Golem",
+        "type": "Harvester",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_LivingEarth_Boulder_Golem.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Boulder Golem",
+    "type": "Harvester",
+    "cost": "1"
+  },
+  "093": {
+    "id": "093",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Living Mountain",
+        "type": "Harvester",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_LivingEarth_Living_Mountain.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Living Mountain",
+    "type": "Harvester",
+    "cost": "1"
+  },
+  "094": {
+    "id": "094",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Vineweave Creature",
+        "type": "Harvester",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_LivingEarth_Vineweave_Creature.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Vineweave Creature",
+    "type": "Harvester",
+    "cost": "1"
+  },
+  "095": {
+    "id": "095",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Wind Cyclone",
+        "type": "Harvester",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_LivingEarth_Wind_Cyclone.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Wind Cyclone",
+    "type": "Harvester",
+    "cost": "1"
+  },
+  "096": {
+    "id": "096",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Wind Zephyr",
+        "type": "Harvester",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_LivingEarth_Wind_Zephyr.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Wind Zephyr",
+    "type": "Harvester",
+    "cost": "1"
+  },
+  "097": {
+    "id": "097",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Geyser Totem",
+        "type": "Harvester",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_LivingEarth_Geyser_Totem.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Geyser Totem",
+    "type": "Harvester",
+    "cost": "1"
+  },
+  "098": {
+    "id": "098",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Spreading Life",
+        "type": "Tactic",
+        "cost": "2",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_LivingEarth_Spreading_Life.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Spreading Life",
+    "type": "Tactic",
+    "cost": "2"
+  },
+  "099": {
+    "id": "099",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Animate",
+        "type": "Tactic",
+        "cost": "2",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_LivingEarth_Animate.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Animate",
+    "type": "Tactic",
+    "cost": "2"
+  },
+  "100": {
+    "id": "100",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Gentle Reaping",
+        "type": "Tactic",
+        "cost": "0",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_LivingEarth_Gentle_Reaping.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Gentle Reaping",
+    "type": "Tactic",
+    "cost": "0"
+  },
+  "101": {
+    "id": "101",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Regrowth",
+        "type": "Tactic",
+        "cost": "0",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_LivingEarth_Regrowth.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Regrowth",
+    "type": "Tactic",
+    "cost": "0"
+  },
+  "031": {
+    "id": "031",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Raven Knight",
+        "type": "Harvester",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Regal_Raven_Knight.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Raven Knight",
+    "type": "Harvester",
+    "cost": "1"
+  },
+  "028": {
+    "id": "028",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Ram Templar",
+        "type": "Harvester",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Regal_Ram_Templar.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Ram Templar",
+    "type": "Harvester",
+    "cost": "1"
+  },
+  "034": {
+    "id": "034",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Lion King",
+        "type": "Harvester",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Regal_Lion_King.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Lion King",
+    "type": "Harvester",
+    "cost": "1"
+  },
+  "027": {
+    "id": "027",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Fox Duelist",
+        "type": "Reaper",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Regal_Fox_Duelist.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Fox Duelist",
+    "type": "Reaper",
+    "cost": "1"
+  },
+  "026": {
+    "id": "026",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Stag Highlord",
+        "type": "Reaper",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Regal_Stag_Highlord.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Stag Highlord",
+    "type": "Reaper",
+    "cost": "1"
+  },
+  "029": {
+    "id": "029",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "War Rhino",
+        "type": "Reaper",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Regal_War_Rhino.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "War Rhino",
+    "type": "Reaper",
+    "cost": "1"
+  },
+  "102": {
+    "id": "102",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Lowborn Farmhand",
+        "type": "Reaper",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Regal_Lowborn_Farmhand.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Lowborn Farmhand",
+    "type": "Reaper",
+    "cost": "1"
+  },
+  "103": {
+    "id": "103",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Lowborn Arsonist",
+        "type": "Reaper",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Regal_Lowborn_Arsonist.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Lowborn Arsonist",
+    "type": "Reaper",
+    "cost": "1"
+  },
+  "018": {
+    "id": "018",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Fallen Warrior",
+        "type": "Reaper",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Regal_Fallen_Warrior.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Fallen Warrior",
+    "type": "Reaper",
+    "cost": "1"
+  },
+  "036": {
+    "id": "036",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "War Dragon",
+        "type": "Reaper",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Regal_War_Dragon.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "War Dragon",
+    "type": "Reaper",
+    "cost": "1"
+  },
+  "104": {
+    "id": "104",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Regal Wings",
+        "type": "Gear",
+        "cost": "3",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Regal_Regal_Wings.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Regal Wings",
+    "type": "Gear",
+    "cost": "3"
+  },
+  "105": {
+    "id": "105",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Royal War Banner",
+        "type": "Gear",
+        "cost": "3",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Regal_Royal_War_Banner.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Royal War Banner",
+    "type": "Gear",
+    "cost": "3"
+  },
+  "106": {
+    "id": "106",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Aegis Shield",
+        "type": "Gear",
+        "cost": "5",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Regal_Aegis_Shield.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Aegis Shield",
+    "type": "Gear",
+    "cost": "5"
+  },
+  "107": {
+    "id": "107",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Ember Brand",
+        "type": "Gear",
+        "cost": "2",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V3_Regal_Ember_Brand.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Ember Brand",
+    "type": "Gear",
+    "cost": "2"
   }
 }
