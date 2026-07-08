@@ -5,7 +5,7 @@
     "backgrounds": [],
     "decksUrl": ""
   },
-  "customHelp": "Green = Harvester (gather energy). Red = Reaper (hunt). COUNTERS in order: Treachery (starts 5, invade gate to 10) | Potential Energy | Refined Energy | VP. Tokens: black = Death, red pip = Population.",
+  "customHelp": "Green = Harvester (gather energy). Red = Reaper (hunt). COUNTERS in order: Treachery (starts 5, invade gate to 10) | Potential Energy | Refined Energy | VP. Play 1 Creator from your Creator Deck pile at start of turn. Tokens: black = Death, red pip = Population.",
   "cardRotation": 45,
   "cards": {
     "dataUrl": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/CardList.json",
@@ -40,7 +40,7 @@
         "initialBoardSetup": [
           {
             "createCardId": "C001",
-            "destination": "Creators",
+            "destination": "CreatorDeck",
             "count": 7,
             "isHorizontal": false
           }
@@ -64,7 +64,7 @@
         "firstPlayerTokenName": "",
         "drawPerTurn": 1
       },
-      "defaultNotes": "Counters: Treachery(5, gate to 10) | Potential | Refined | VP",
+      "defaultNotes": "Counters: Treachery(5, gate to 10) | Potential | Refined | VP. Start of turn: draw 1 Creator from Creator Deck pile.",
       "tokens": [],
       "countersStartingValues": [
         5,
@@ -75,10 +75,10 @@
       "hideFacedDownCards": false,
       "sections": {
         "customSections": [
-          "Treachery",
           "Invasion",
           "Home",
-          "Creators"
+          "Creators",
+          "CreatorDeck"
         ],
         "layout": {
           "direction": "column",
@@ -89,13 +89,6 @@
                 "gap": "8px"
               },
               "content": [
-                {
-                  "section": "Treachery",
-                  "style": {
-                    "width": "22%",
-                    "min-height": "14vh"
-                  }
-                },
                 {
                   "section": "Invasion",
                   "style": {
@@ -130,9 +123,16 @@
               },
               "content": [
                 {
+                  "section": "CreatorDeck",
+                  "style": {
+                    "width": "12%",
+                    "min-height": "14vh"
+                  }
+                },
+                {
                   "section": "Creators",
                   "style": {
-                    "width": "100%",
+                    "flex": "1",
                     "min-height": "14vh"
                   }
                 }
@@ -268,22 +268,6 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "Treachery": {
-            "title": "Treachery",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Treachery Gate",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
           "Invasion": {
             "title": "Invasion",
             "isHidden": "no",
@@ -329,6 +313,22 @@
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "CreatorDeck": {
+            "title": "CreatorDeck",
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "DECK",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Creator Deck",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           }
