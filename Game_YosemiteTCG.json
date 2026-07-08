@@ -5,7 +5,7 @@
     "backgrounds": [],
     "decksUrl": ""
   },
-  "customHelp": "Green = Harvester (gather energy). Red = Reaper (hunt). COUNTERS in order: Treachery (starts 5, invade gate to 10) | Potential Energy | Refined Energy | VP. Play 1 Creator from your Creator Deck pile at start of turn. Tokens: black = Death, red pip = Population.",
+  "customHelp": "Green = Harvester (gather energy). Red = Reaper (hunt). COUNTERS in order: Potential Energy | Refined Energy | VP. Treachery = drag the red marker along the 1-10 track (starts on 5). Play 1 Creator from your Creator Deck pile at start of turn. Tokens: black = Death, red pip = Population.",
   "cardRotation": 45,
   "cards": {
     "dataUrl": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/CardList.json",
@@ -43,6 +43,12 @@
             "destination": "CreatorDeck",
             "count": 7,
             "isHorizontal": false
+          },
+          {
+            "createCardId": "T001",
+            "destination": "T5",
+            "count": 1,
+            "isHorizontal": false
           }
         ]
       },
@@ -64,10 +70,9 @@
         "firstPlayerTokenName": "",
         "drawPerTurn": 1
       },
-      "defaultNotes": "Counters: Treachery(5, gate to 10) | Potential | Refined | VP. Start of turn: draw 1 Creator from Creator Deck pile.",
+      "defaultNotes": "Counters: Potential | Refined | VP. Treachery = red marker on the 1-10 track (starts on 5). Draw 1 Creator from pile each turn.",
       "tokens": [],
       "countersStartingValues": [
-        5,
         0,
         0,
         0
@@ -78,7 +83,17 @@
           "Invasion",
           "Home",
           "Creators",
-          "CreatorDeck"
+          "CreatorDeck",
+          "T1",
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7",
+          "T8",
+          "T9",
+          "T10"
         ],
         "layout": {
           "direction": "column",
@@ -86,14 +101,84 @@
             {
               "direction": "row",
               "style": {
-                "gap": "8px"
+                "gap": "4px"
               },
               "content": [
                 {
+                  "section": "T1",
+                  "style": {
+                    "width": "5.2%",
+                    "min-height": "9vh"
+                  }
+                },
+                {
+                  "section": "T2",
+                  "style": {
+                    "width": "5.2%",
+                    "min-height": "9vh"
+                  }
+                },
+                {
+                  "section": "T3",
+                  "style": {
+                    "width": "5.2%",
+                    "min-height": "9vh"
+                  }
+                },
+                {
+                  "section": "T4",
+                  "style": {
+                    "width": "5.2%",
+                    "min-height": "9vh"
+                  }
+                },
+                {
+                  "section": "T5",
+                  "style": {
+                    "width": "5.2%",
+                    "min-height": "9vh"
+                  }
+                },
+                {
+                  "section": "T6",
+                  "style": {
+                    "width": "5.2%",
+                    "min-height": "9vh"
+                  }
+                },
+                {
+                  "section": "T7",
+                  "style": {
+                    "width": "5.2%",
+                    "min-height": "9vh"
+                  }
+                },
+                {
+                  "section": "T8",
+                  "style": {
+                    "width": "5.2%",
+                    "min-height": "9vh"
+                  }
+                },
+                {
+                  "section": "T9",
+                  "style": {
+                    "width": "5.2%",
+                    "min-height": "9vh"
+                  }
+                },
+                {
+                  "section": "T10",
+                  "style": {
+                    "width": "5.2%",
+                    "min-height": "9vh"
+                  }
+                },
+                {
                   "section": "Invasion",
                   "style": {
-                    "width": "45%",
-                    "min-height": "14vh",
+                    "width": "38%",
+                    "min-height": "12vh",
                     "margin-left": "auto"
                   }
                 }
@@ -329,6 +414,166 @@
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "T1": {
+            "title": "T1",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "1",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "T2": {
+            "title": "T2",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "2",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "T3": {
+            "title": "T3",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "3",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "T4": {
+            "title": "T4",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "4",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "T5": {
+            "title": "T5",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "5",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "T6": {
+            "title": "T6",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "6",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "T7": {
+            "title": "T7",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "7",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "T8": {
+            "title": "T8",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "8",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "T9": {
+            "title": "T9",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "9",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "T10": {
+            "title": "T10",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "10",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           }
