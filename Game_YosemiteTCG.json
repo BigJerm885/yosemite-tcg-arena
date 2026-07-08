@@ -5,7 +5,7 @@
     "backgrounds": [],
     "decksUrl": ""
   },
-  "customHelp": "Green = Harvester (gather energy). Red = Reaper (hunt).",
+  "customHelp": "Green = Harvester (gather energy). Red = Reaper (hunt). COUNTERS in order: Invasion (starts 5, race to 10) | Treachery | Potential Energy | Refined Energy | VP.",
   "cardRotation": 45,
   "cards": {
     "dataUrl": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/CardList.json",
@@ -42,17 +42,22 @@
         "firstPlayerTokenName": "",
         "drawPerTurn": 1
       },
-      "defaultNotes": "",
+      "defaultNotes": "Counters: Invasion(5) | Treachery | Potential | Refined | VP",
       "tokens": [],
       "countersStartingValues": [
+        5,
+        0,
+        0,
+        0,
         0
       ],
       "hideFacedDownCards": false,
       "sections": {
         "customSections": [
-          "Reapers",
-          "Territory",
-          "Harvesters"
+          "Invasion",
+          "Home",
+          "Creators",
+          "Ecosystem"
         ],
         "layout": {
           "direction": "column",
@@ -64,7 +69,24 @@
               },
               "content": [
                 {
-                  "section": "Reapers",
+                  "section": "Invasion",
+                  "style": {
+                    "width": "45%",
+                    "min-height": "15vh",
+                    "margin-left": "auto"
+                  }
+                }
+              ]
+            },
+            {
+              "direction": "row",
+              "style": {
+                "gap": "8px",
+                "margin-top": "8px"
+              },
+              "content": [
+                {
+                  "section": "Home",
                   "style": {
                     "width": "100%",
                     "min-height": "17vh"
@@ -80,26 +102,17 @@
               },
               "content": [
                 {
-                  "section": "Territory",
+                  "section": "Creators",
                   "style": {
-                    "width": "100%",
-                    "min-height": "17vh"
+                    "width": "30%",
+                    "min-height": "14vh"
                   }
-                }
-              ]
-            },
-            {
-              "direction": "row",
-              "style": {
-                "gap": "8px",
-                "margin-top": "8px"
-              },
-              "content": [
+                },
                 {
-                  "section": "Harvesters",
+                  "section": "Ecosystem",
                   "style": {
-                    "width": "100%",
-                    "min-height": "17vh"
+                    "flex": "1",
+                    "min-height": "14vh"
                   }
                 }
               ]
@@ -108,8 +121,8 @@
         },
         "categoriesAlreadyOnBoard": [],
         "autoPlayFromHand": {
-          "Harvester": "Harvesters",
-          "Reaper": "Reapers"
+          "Harvester": "Home",
+          "Reaper": "Home"
         },
         "autoPlayFromStack": {},
         "sectionsDict": {
@@ -233,15 +246,15 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "Reapers": {
-            "title": "Reapers",
+          "Invasion": {
+            "title": "Invasion",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": false,
-            "displayedTitle": "Reapers",
+            "displayedTitle": "Invasion Zone",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -249,15 +262,31 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "Territory": {
-            "title": "Territory",
+          "Home": {
+            "title": "Home",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Home Zone",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Creators": {
+            "title": "Creators",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Territory / Invasion",
+            "displayedTitle": "Creators",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -265,15 +294,15 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "Harvesters": {
-            "title": "Harvesters",
+          "Ecosystem": {
+            "title": "Ecosystem",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Harvesters",
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Ecosystem",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
