@@ -7,7 +7,7 @@
         "name": "Rapier Shield Knight",
         "type": "Harvester",
         "cost": "2",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Human_Rapier_Shield_Knight.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Human_Rapier_Shield_Knight.png",
         "isHorizontal": false
       }
     },
@@ -27,7 +27,7 @@
         "name": "Tribal Barbarian Chief Hammer",
         "type": "Harvester",
         "cost": "3",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Human_Tribal_Barbarian_Chief_Hammer.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Human_Tribal_Barbarian_Chief_Hammer.png",
         "isHorizontal": false
       }
     },
@@ -47,7 +47,7 @@
         "name": "Goku Energy Fighter",
         "type": "Harvester",
         "cost": "2",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Human_Goku_Energy_Fighter.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Human_Goku_Energy_Fighter.png",
         "isHorizontal": false
       }
     },
@@ -67,7 +67,7 @@
         "name": "Haunted Swordsman",
         "type": "Reaper",
         "cost": "2",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Human_Haunted_Swordsman.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Human_Haunted_Swordsman.png",
         "isHorizontal": false
       }
     },
@@ -87,7 +87,7 @@
         "name": "Royal Knight Axe",
         "type": "Reaper",
         "cost": "3",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Human_Royal_Knight_Axe.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Human_Royal_Knight_Axe.png",
         "isHorizontal": false
       }
     },
@@ -107,7 +107,7 @@
         "name": "Blue Gold Tank",
         "type": "Reaper",
         "cost": "4",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Human_Blue_Gold_Tank.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Human_Blue_Gold_Tank.png",
         "isHorizontal": false
       }
     },
@@ -127,7 +127,7 @@
         "name": "Hooded Wraith Knight",
         "type": "Reaper",
         "cost": "2",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Human_Hooded_Wraith_Knight.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Human_Hooded_Wraith_Knight.png",
         "isHorizontal": false
       }
     },
@@ -147,7 +147,7 @@
         "name": "Horned Highlord",
         "type": "Reaper",
         "cost": "3",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Human_Horned_Highlord.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Human_Horned_Highlord.png",
         "isHorizontal": false
       }
     },
@@ -167,7 +167,7 @@
         "name": "Royal Knight Greatsword",
         "type": "Reaper",
         "cost": "3",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Human_Royal_Knight_Greatsword.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Human_Royal_Knight_Greatsword.png",
         "isHorizontal": false
       }
     },
@@ -187,7 +187,7 @@
         "name": "Stone Rhino Brute",
         "type": "Harvester",
         "cost": "3",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Regal_Stone_Rhino_Brute.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Regal_Stone_Rhino_Brute.png",
         "isHorizontal": false
       }
     },
@@ -207,7 +207,7 @@
         "name": "Coral Horned Warden",
         "type": "Harvester",
         "cost": "3",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Regal_Coral_Horned_Warden.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Regal_Coral_Horned_Warden.png",
         "isHorizontal": false
       }
     },
@@ -227,7 +227,7 @@
         "name": "Eagle Paladin",
         "type": "Harvester",
         "cost": "2",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Regal_Eagle_Paladin.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Regal_Eagle_Paladin.png",
         "isHorizontal": false
       }
     },
@@ -247,7 +247,7 @@
         "name": "Sun Gryphon",
         "type": "Harvester",
         "cost": "2",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Regal_Sun_Gryphon.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Regal_Sun_Gryphon.png",
         "isHorizontal": false
       }
     },
@@ -267,7 +267,7 @@
         "name": "Wolf Marshal",
         "type": "Harvester",
         "cost": "2",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Regal_Wolf_Marshal.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Regal_Wolf_Marshal.png",
         "isHorizontal": false
       }
     },
@@ -287,7 +287,7 @@
         "name": "Alien Skull Arbiter",
         "type": "Harvester",
         "cost": "2",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Regal_Alien_Skull_Arbiter.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Regal_Alien_Skull_Arbiter.png",
         "isHorizontal": false
       }
     },
@@ -307,7 +307,7 @@
         "name": "Elephant Defender",
         "type": "Harvester",
         "cost": "4",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Regal_Elephant_Defender.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Regal_Elephant_Defender.png",
         "isHorizontal": false
       }
     },
@@ -327,7 +327,7 @@
         "name": "Horned Highlord",
         "type": "Reaper",
         "cost": "3",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Regal_Horned_Highlord.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Regal_Horned_Highlord.png",
         "isHorizontal": false
       }
     },
@@ -347,7 +347,7 @@
         "name": "Rhino Knight",
         "type": "Reaper",
         "cost": "4",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Regal_Rhino_Knight.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Regal_Rhino_Knight.png",
         "isHorizontal": false
       }
     },
@@ -367,7 +367,7 @@
         "name": "Horned Colossus",
         "type": "Reaper",
         "cost": "4",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Regal_Horned_Colossus.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Regal_Horned_Colossus.png",
         "isHorizontal": false
       }
     },
@@ -387,7 +387,7 @@
         "name": "Seraph Champion",
         "type": "Reaper",
         "cost": "3",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Regal_Seraph_Champion.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Regal_Seraph_Champion.png",
         "isHorizontal": false
       }
     },
@@ -407,7 +407,7 @@
         "name": "Frost Saurian",
         "type": "Harvester",
         "cost": "2",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Frost_Saurian.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Savage_Frost_Saurian.png",
         "isHorizontal": false
       }
     },
@@ -427,7 +427,7 @@
         "name": "Glider Kit",
         "type": "Harvester",
         "cost": "1",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Glider_Kit.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Savage_Glider_Kit.png",
         "isHorizontal": false
       }
     },
@@ -447,7 +447,7 @@
         "name": "Pink Saurian",
         "type": "Harvester",
         "cost": "2",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Pink_Saurian.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Savage_Pink_Saurian.png",
         "isHorizontal": false
       }
     },
@@ -467,7 +467,7 @@
         "name": "Beetle Rex",
         "type": "Harvester",
         "cost": "3",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Beetle_Rex.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Savage_Beetle_Rex.png",
         "isHorizontal": false
       }
     },
@@ -487,7 +487,7 @@
         "name": "Bonehelm Tusker",
         "type": "Harvester",
         "cost": "3",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Bonehelm_Tusker.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Savage_Bonehelm_Tusker.png",
         "isHorizontal": false
       }
     },
@@ -507,7 +507,7 @@
         "name": "Glacier Saurian",
         "type": "Harvester",
         "cost": "3",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Glacier_Saurian.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Savage_Glacier_Saurian.png",
         "isHorizontal": false
       }
     },
@@ -527,7 +527,7 @@
         "name": "Ice Fisher Crab",
         "type": "Harvester",
         "cost": "2",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Ice_Fisher_Crab.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Savage_Ice_Fisher_Crab.png",
         "isHorizontal": false
       }
     },
@@ -547,7 +547,7 @@
         "name": "Rhino Duo",
         "type": "Harvester",
         "cost": "2",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Rhino_Duo.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Savage_Rhino_Duo.png",
         "isHorizontal": false
       }
     },
@@ -567,7 +567,7 @@
         "name": "Trilobite Swimmer",
         "type": "Harvester",
         "cost": "2",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Trilobite_Swimmer.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Savage_Trilobite_Swimmer.png",
         "isHorizontal": false
       }
     },
@@ -587,7 +587,7 @@
         "name": "Moss Titan",
         "type": "Harvester",
         "cost": "4",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Moss_Titan.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Savage_Moss_Titan.png",
         "isHorizontal": false
       }
     },
@@ -607,7 +607,7 @@
         "name": "Bone Skull Beast",
         "type": "Reaper",
         "cost": "3",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Bone_Skull_Beast.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Savage_Bone_Skull_Beast.png",
         "isHorizontal": false
       }
     },
@@ -627,7 +627,7 @@
         "name": "Magma Raptor",
         "type": "Reaper",
         "cost": "2",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Magma_Raptor.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Savage_Magma_Raptor.png",
         "isHorizontal": false
       }
     },
@@ -647,7 +647,7 @@
         "name": "Azure Wyvern Duo",
         "type": "Reaper",
         "cost": "2",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Azure_Wyvern_Duo.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Savage_Azure_Wyvern_Duo.png",
         "isHorizontal": false
       }
     },
@@ -667,7 +667,7 @@
         "name": "Bone Bear",
         "type": "Reaper",
         "cost": "3",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Bone_Bear.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Savage_Bone_Bear.png",
         "isHorizontal": false
       }
     },
@@ -687,7 +687,7 @@
         "name": "Crimson Wyvern",
         "type": "Reaper",
         "cost": "2",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Crimson_Wyvern.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Savage_Crimson_Wyvern.png",
         "isHorizontal": false
       }
     },
@@ -707,7 +707,7 @@
         "name": "Frost Roc",
         "type": "Reaper",
         "cost": "1",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Frost_Roc.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Savage_Frost_Roc.png",
         "isHorizontal": false
       }
     },
@@ -727,7 +727,7 @@
         "name": "Hammer Croc",
         "type": "Reaper",
         "cost": "3",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Hammer_Croc.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Savage_Hammer_Croc.png",
         "isHorizontal": false
       }
     },
@@ -747,7 +747,7 @@
         "name": "Ruby Emerald Drake",
         "type": "Reaper",
         "cost": "2",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Ruby_Emerald_Drake.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Savage_Ruby_Emerald_Drake.png",
         "isHorizontal": false
       }
     },
@@ -767,7 +767,7 @@
         "name": "Stone Rex",
         "type": "Reaper",
         "cost": "4",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Stone_Rex.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Savage_Stone_Rex.png",
         "isHorizontal": false
       }
     },
@@ -787,7 +787,7 @@
         "name": "Crystal Colossus",
         "type": "Reaper",
         "cost": "4",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Crystal_Colossus.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Savage_Crystal_Colossus.png",
         "isHorizontal": false
       }
     },
@@ -807,7 +807,7 @@
         "name": "Ember Phoenix",
         "type": "Reaper",
         "cost": "2",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Ember_Phoenix.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Savage_Ember_Phoenix.png",
         "isHorizontal": false
       }
     },
@@ -827,7 +827,7 @@
         "name": "Spirit Tiger",
         "type": "Reaper",
         "cost": "2",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V2_Savage_Spirit_Tiger.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Savage_Spirit_Tiger.png",
         "isHorizontal": false
       }
     },
