@@ -1070,5 +1070,21 @@
     "name": "Spirit Tiger",
     "type": "Reaper",
     "cost": "1"
+  },
+  "C001": {
+    "id": "C001",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "Generic Creator",
+        "type": "Creator",
+        "cost": "0",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/C_Generic_Creator.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Generic Creator",
+    "type": "Creator",
+    "cost": "0"
   }
 }
