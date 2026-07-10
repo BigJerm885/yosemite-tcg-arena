@@ -3,6 +3,7 @@
   "menuBackgroundImage": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/banner.png",
   "defaultRessources": {
     "backgrounds": [
+      "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/backgrounds/mat_learn_to_play.jpg",
       "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/backgrounds/mat_savage.jpg",
       "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/backgrounds/mat_human.jpg",
       "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/backgrounds/mat_livingearth.jpg",
