@@ -2,7 +2,12 @@
   "name": "Yosemite TCG",
   "menuBackgroundImage": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/banner.png",
   "defaultRessources": {
-    "backgrounds": [],
+    "backgrounds": [
+      "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/backgrounds/mat_savage.jpg",
+      "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/backgrounds/mat_human.jpg",
+      "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/backgrounds/mat_livingearth.jpg",
+      "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/backgrounds/mat_regal.jpg"
+    ],
     "decksUrl": ""
   },
   "customHelp": "Green = Harvester (gather energy). Red = Reaper (hunt). COUNTERS in order: Potential Energy | Refined Energy | VP. Treachery = drag the red marker along the 1-10 track (starts on 5). Play 1 Creator from your Creator Deck pile at start of turn. Tokens: black = Death, red pip = Population.",
