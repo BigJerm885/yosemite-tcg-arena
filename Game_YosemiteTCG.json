@@ -2,36 +2,24 @@
   "name": "Yosemite TCG",
   "menuBackgroundImage": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/banner.png",
   "defaultRessources": {
-    "backgrounds": [
-      "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/backgrounds/mat_learn_to_play.jpg",
-      "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/backgrounds/mat_savage.jpg",
-      "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/backgrounds/mat_human.jpg",
-      "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/backgrounds/mat_livingearth.jpg",
-      "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/backgrounds/mat_regal.jpg"
-    ],
+    "backgrounds": [],
     "decksUrl": ""
   },
-  "customHelp": "Green = Harvester (gather energy). Red = Reaper (hunt). COUNTERS in order: Potential Energy | Refined Energy | VP. Treachery = drag the red marker along the 1-10 track (starts on 5). Play 1 Creator from your Creator Deck pile at start of turn. Tokens: black = Death, red pip = Population.",
+  "customHelp": "Green = Harvester (gather energy). Red = Reaper (hunt). Play creatures into HOME (Just Played); next turn move them to HOME (Can Invade); from there push into TO INVADE (the opponent's area). COUNTERS in order: Raw Energy | Life Energy | Balance. Treachery = drag the red marker along the 1-10 track (starts on 5). Play 1 Creator from your Creator Deck pile at start of turn. Tokens: black = Death, red pip = Population.",
   "cardRotation": 45,
   "cards": {
     "dataUrl": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/CardList.json",
     "cardBack": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/cardback.png"
   },
   "deckBuilding": {
-    "mainFilters": [
-      "faction",
-      "type",
-      "rarity"
-    ],
+    "mainFilters": [],
     "formats": [
       {
         "title": "Standard",
         "gameplay": "Classic",
         "customCategories": [
           "Harvester",
-          "Reaper",
-          "Tactic",
-          "Gear"
+          "Reaper"
         ]
       }
     ]
@@ -82,7 +70,7 @@
         "firstPlayerTokenName": "",
         "drawPerTurn": 1
       },
-      "defaultNotes": "Counters: Potential | Refined | VP. Treachery = red marker on the 1-10 track (starts on 5). Draw 1 Creator from pile each turn.",
+      "defaultNotes": "Counters: Raw Energy | Life Energy | Balance. Treachery = red marker on the 1-10 track (starts on 5). Draw 1 Creator from pile each turn. Creatures enter Home (Just Played), graduate to Home (Can Invade), then push into To Invade.",
       "tokens": [],
       "countersStartingValues": [
         0,
@@ -92,8 +80,9 @@
       "hideFacedDownCards": false,
       "sections": {
         "customSections": [
-          "Invasion",
-          "Home",
+          "ToInvade",
+          "HomeNew",
+          "HomeReady",
           "Creators",
           "CreatorDeck",
           "T1",
@@ -120,78 +109,70 @@
                   "section": "T1",
                   "style": {
                     "width": "5.2%",
-                    "min-height": "9vh"
+                    "min-height": "8vh"
                   }
                 },
                 {
                   "section": "T2",
                   "style": {
                     "width": "5.2%",
-                    "min-height": "9vh"
+                    "min-height": "8vh"
                   }
                 },
                 {
                   "section": "T3",
                   "style": {
                     "width": "5.2%",
-                    "min-height": "9vh"
+                    "min-height": "8vh"
                   }
                 },
                 {
                   "section": "T4",
                   "style": {
                     "width": "5.2%",
-                    "min-height": "9vh"
+                    "min-height": "8vh"
                   }
                 },
                 {
                   "section": "T5",
                   "style": {
                     "width": "5.2%",
-                    "min-height": "9vh"
+                    "min-height": "8vh"
                   }
                 },
                 {
                   "section": "T6",
                   "style": {
                     "width": "5.2%",
-                    "min-height": "9vh"
+                    "min-height": "8vh"
                   }
                 },
                 {
                   "section": "T7",
                   "style": {
                     "width": "5.2%",
-                    "min-height": "9vh"
+                    "min-height": "8vh"
                   }
                 },
                 {
                   "section": "T8",
                   "style": {
                     "width": "5.2%",
-                    "min-height": "9vh"
+                    "min-height": "8vh"
                   }
                 },
                 {
                   "section": "T9",
                   "style": {
                     "width": "5.2%",
-                    "min-height": "9vh"
+                    "min-height": "8vh"
                   }
                 },
                 {
                   "section": "T10",
                   "style": {
                     "width": "5.2%",
-                    "min-height": "9vh"
-                  }
-                },
-                {
-                  "section": "Invasion",
-                  "style": {
-                    "width": "38%",
-                    "min-height": "12vh",
-                    "margin-left": "auto"
+                    "min-height": "8vh"
                   }
                 }
               ]
@@ -204,10 +185,24 @@
               },
               "content": [
                 {
-                  "section": "Home",
+                  "section": "HomeNew",
                   "style": {
-                    "width": "100%",
-                    "min-height": "17vh"
+                    "width": "31%",
+                    "min-height": "20vh"
+                  }
+                },
+                {
+                  "section": "HomeReady",
+                  "style": {
+                    "width": "38%",
+                    "min-height": "20vh"
+                  }
+                },
+                {
+                  "section": "ToInvade",
+                  "style": {
+                    "width": "31%",
+                    "min-height": "20vh"
                   }
                 }
               ]
@@ -239,8 +234,8 @@
         },
         "categoriesAlreadyOnBoard": [],
         "autoPlayFromHand": {
-          "Harvester": "Home",
-          "Reaper": "Home",
+          "Harvester": "HomeNew",
+          "Reaper": "HomeNew",
           "Creator": "Creators"
         },
         "autoPlayFromStack": {},
@@ -365,15 +360,15 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "Invasion": {
-            "title": "Invasion",
+          "ToInvade": {
+            "title": "ToInvade",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": false,
-            "displayedTitle": "Invasion Zone",
+            "displayedTitle": "To Invade",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -381,15 +376,31 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "Home": {
-            "title": "Home",
+          "HomeNew": {
+            "title": "HomeNew",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": false,
-            "displayedTitle": "Home Zone",
+            "displayedTitle": "Home (Just Played)",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "HomeReady": {
+            "title": "HomeReady",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Home (Can Invade)",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
