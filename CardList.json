@@ -1307,7 +1307,7 @@
   },
   "ADP1": {
     "id": "ADP1",
-    "isToken": true,
+    "isToken": false,
     "face": {
       "front": {
         "name": "Flux Field",
@@ -1329,7 +1329,7 @@
   },
   "ADP2": {
     "id": "ADP2",
-    "isToken": true,
+    "isToken": false,
     "face": {
       "front": {
         "name": "Reclamation Site",
@@ -1351,7 +1351,7 @@
   },
   "ADP3": {
     "id": "ADP3",
-    "isToken": true,
+    "isToken": false,
     "face": {
       "front": {
         "name": "Dormant Core",
@@ -1373,7 +1373,7 @@
   },
   "ADP4": {
     "id": "ADP4",
-    "isToken": true,
+    "isToken": false,
     "face": {
       "front": {
         "name": "Feed Vat",
@@ -1395,7 +1395,7 @@
   },
   "ADP5": {
     "id": "ADP5",
-    "isToken": true,
+    "isToken": false,
     "face": {
       "front": {
         "name": "Uplink Array",
@@ -1417,7 +1417,7 @@
   },
   "ADP6": {
     "id": "ADP6",
-    "isToken": true,
+    "isToken": false,
     "face": {
       "front": {
         "name": "Firewall Cache",
@@ -1439,7 +1439,7 @@
   },
   "ADP7": {
     "id": "ADP7",
-    "isToken": true,
+    "isToken": false,
     "face": {
       "front": {
         "name": "Overdraw Rig",
