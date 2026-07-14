@@ -4,7 +4,7 @@
     "id": "humans-starter",
     "game": "Yosemite TCG",
     "format": "Standard",
-    "cardCount": 58,
+    "cardCount": 51,
     "createdAt": "2026-07-13T00:00:00.000Z",
     "lastModifiedAt": "2026-07-13T00:00:00.000Z",
     "deckList": {
@@ -109,7 +109,7 @@
     "id": "savages-starter",
     "game": "Yosemite TCG",
     "format": "Standard",
-    "cardCount": 52,
+    "cardCount": 45,
     "createdAt": "2026-07-13T00:00:00.000Z",
     "lastModifiedAt": "2026-07-13T00:00:00.000Z",
     "deckList": {
@@ -206,7 +206,7 @@
     "id": "living-earth-starter",
     "game": "Yosemite TCG",
     "format": "Standard",
-    "cardCount": 52,
+    "cardCount": 45,
     "createdAt": "2026-07-13T00:00:00.000Z",
     "lastModifiedAt": "2026-07-13T00:00:00.000Z",
     "deckList": {
@@ -300,7 +300,7 @@
     "id": "regals-starter",
     "game": "Yosemite TCG",
     "format": "Standard",
-    "cardCount": 49,
+    "cardCount": 42,
     "createdAt": "2026-07-13T00:00:00.000Z",
     "lastModifiedAt": "2026-07-13T00:00:00.000Z",
     "deckList": {

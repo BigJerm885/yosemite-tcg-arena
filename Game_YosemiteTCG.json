@@ -5,7 +5,7 @@
     "backgrounds": [],
     "decksUrl": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/decks/yosemite-decks.json"
   },
-  "customHelp": "=== FIRST-GAME SETUP === (1) Open the Decks menu and load a Starter deck (Humans / Savages / Living Earth / Regals). (2) IMPORTANT: your deck includes 7 Adaptation cards bundled in — BEFORE you start, drag those 7 Adaptations out of your deck into the ADAPTATION SIDE DECK pile (face down). They are NOT part of your main draw. (3) Your Treachery counter starts at 5. You need a 2nd player on the same game link (custom games have no public matchmaking) — or play both sides solo to learn. Arena does NOT enforce rules; you run the turn yourselves. === HOW TO PLAY === Green = Harvester (gather energy). Red = Reaper (hunt). When you PLAY a Reaper or Harvester it enters your HOME zone. A creature can't push into TO INVADE (the opponent's area) until your NEXT turn (no invading the turn it's played). COUNTERS in order: Energy | Balance | Treachery. ENERGY = your spendable pool this turn (Raw + Life merged into one to cut clicks) — gain it at Dawn, spend it, convert leftover to Population at Dusk. BALANCE = your score. TREACHERY = how HARD YOUR LAND IS TO INVADE (1-10, STARTS AT 5). High = fortified; low = wide open, so you want YOURS high and your opponent's low. Greedy energy (e.g. Overdraw Rig) lowers your own treachery. ADAPTATIONS = your energy sites. You BUILD a 7-card ADAPTATION SIDE DECK in the deckbuilder, separate from your main deck (put them in the Sideboard). Pick ANY 7 from the Adaptation pool and MULTIPLE COPIES ARE ALLOWED — 4x Flux Field + 3x Overdraw Rig is a totally different deck from 3x Feed Vat + 4x Reclamation Site. At game start, park those 7 FACE DOWN in the ADAPTATION SIDE DECK pile on your board. At DAWN, flip the top one (revealed when played): SUN glyph = play it FREE right now; CRESCENT MOON glyph = take it to HAND and pay its cost to play it at DUSK. Played Adaptations sit in your SITES row — that's your energy base. POPULATION = red pips placed on your Harvesters (this is what accumulates). Play 1 Creator from your Creator Deck pile at start of turn. Tokens: red pip = Population, black = Death.",
+  "customHelp": "=== FIRST-GAME SETUP === (1) Open the Decks menu and load a Starter deck (Humans / Savages / Living Earth / Regals). (2) Your ADAPTATION SIDE DECK (the 7 Adaptation cards you built) starts FACE DOWN in its own pile automatically — separate from your main deck, it does NOT get shuffled in or drawn into hand. (3) Your Treachery counter starts at 5. You need a 2nd player on the same game link (custom games have no public matchmaking) — or play both sides solo to learn. Arena does NOT enforce rules; you run the turn yourselves. === HOW TO PLAY === Green = Harvester (gather energy). Red = Reaper (hunt). When you PLAY a Reaper or Harvester it enters your HOME zone. A creature can't push into TO INVADE (the opponent's area) until your NEXT turn (no invading the turn it's played). COUNTERS in order: Energy | Balance | Treachery. ENERGY = your spendable pool this turn (Raw + Life merged into one to cut clicks) — gain it at Dawn, spend it, convert leftover to Population at Dusk. BALANCE = your score. TREACHERY = how HARD YOUR LAND IS TO INVADE (1-10, STARTS AT 5). High = fortified; low = wide open, so you want YOURS high and your opponent's low. Greedy energy (e.g. Overdraw Rig) lowers your own treachery. ADAPTATIONS = your energy sites. You BUILD a 7-card Adaptation side deck in the deckbuilder (Adaptation category, multiples allowed) — at game start it routes to its OWN face-down pile, separate from your main deck. At DAWN, flip the top one (revealed when played): SUN glyph = play it FREE right now; CRESCENT MOON glyph = take it to HAND and pay its cost to play it at DUSK. Played Adaptations sit in your SITES row — that's your energy base. POPULATION = red pips placed on your Harvesters (this is what accumulates). Play 1 Creator from your Creator Deck pile at start of turn. Tokens: red pip = Population, black = Death.",
   "cardRotation": 45,
   "cards": {
     "dataUrl": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/CardList.json",
@@ -84,7 +84,7 @@
           "ToInvade",
           "Home",
           "Sites",
-          "AdaptDeck",
+          "Adaptation",
           "Creators",
           "CreatorDeck"
         ],
@@ -135,7 +135,7 @@
                   }
                 },
                 {
-                  "section": "AdaptDeck",
+                  "section": "Adaptation",
                   "style": {
                     "min-height": "9vh",
                     "width": "10%"
@@ -152,12 +152,13 @@
             }
           ]
         },
-        "categoriesAlreadyOnBoard": [],
+        "categoriesAlreadyOnBoard": [
+          "Adaptation"
+        ],
         "autoPlayFromHand": {
           "Harvester": "Home",
           "Reaper": "Home",
-          "Creator": "Creators",
-          "Adaptation": "Sites"
+          "Creator": "Creators"
         },
         "autoPlayFromStack": {},
         "sectionsDict": {
@@ -313,8 +314,8 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "AdaptDeck": {
-            "title": "AdaptDeck",
+          "Adaptation": {
+            "title": "Adaptation",
             "isHidden": "yes",
             "height": "SMALL",
             "alignment": "DECK",
