@@ -1305,204 +1305,251 @@
     "faction": "Regal",
     "rarity": "Common"
   },
-  "E01": {
-    "id": "E01",
+  "ADP1": {
+    "id": "ADP1",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Ecosystem 1",
-        "type": "Ecosystem",
-        "cost": "1",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/PH_Ecosystem_1.png",
+        "name": "Flux Field",
+        "type": "Adaptation",
+        "cost": "0",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/ADP_Flux_Field.png",
         "isHorizontal": false
       }
     },
-    "name": "Ecosystem 1",
-    "type": "Ecosystem",
-    "cost": "1",
+    "name": "Flux Field",
+    "type": "Adaptation",
+    "cost": "0",
     "faction": "Neutral",
     "rarity": "Common",
-    "size": 1,
-    "mobility": 0
+    "size": 0,
+    "mobility": 0,
+    "energy": 2
   },
-  "E02": {
-    "id": "E02",
+  "ADP2": {
+    "id": "ADP2",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Ecosystem 2",
-        "type": "Ecosystem",
-        "cost": "2",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/PH_Ecosystem_2.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Ecosystem 2",
-    "type": "Ecosystem",
-    "cost": "2",
-    "faction": "Neutral",
-    "rarity": "Common",
-    "size": 2,
-    "mobility": 0
-  },
-  "E03": {
-    "id": "E03",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Ecosystem 3",
-        "type": "Ecosystem",
-        "cost": "3",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/PH_Ecosystem_3.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Ecosystem 3",
-    "type": "Ecosystem",
-    "cost": "3",
-    "faction": "Neutral",
-    "rarity": "Common",
-    "size": 3,
-    "mobility": 0
-  },
-  "E04": {
-    "id": "E04",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Ecosystem 4",
-        "type": "Ecosystem",
-        "cost": "4",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/PH_Ecosystem_4.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Ecosystem 4",
-    "type": "Ecosystem",
-    "cost": "4",
-    "faction": "Neutral",
-    "rarity": "Common",
-    "size": 4,
-    "mobility": 0
-  },
-  "E05": {
-    "id": "E05",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Ecosystem 5",
-        "type": "Ecosystem",
-        "cost": "5",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/PH_Ecosystem_5.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Ecosystem 5",
-    "type": "Ecosystem",
-    "cost": "5",
-    "faction": "Neutral",
-    "rarity": "Common",
-    "size": 5,
-    "mobility": 0
-  },
-  "A01": {
-    "id": "A01",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Adaptation 1",
+        "name": "Overdraw Rig",
         "type": "Adaptation",
         "cost": "1",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/PH_Adaptation_1.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/ADP_Overdraw_Rig.png",
         "isHorizontal": false
       }
     },
-    "name": "Adaptation 1",
+    "name": "Overdraw Rig",
     "type": "Adaptation",
     "cost": "1",
     "faction": "Neutral",
     "rarity": "Common",
     "size": 1,
-    "mobility": 0
+    "mobility": 0,
+    "energy": 4
   },
-  "A02": {
-    "id": "A02",
+  "ADP3": {
+    "id": "ADP3",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Adaptation 2",
+        "name": "Reclamation Site",
         "type": "Adaptation",
-        "cost": "2",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/PH_Adaptation_2.png",
+        "cost": "0",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/ADP_Reclamation_Site.png",
         "isHorizontal": false
       }
     },
-    "name": "Adaptation 2",
+    "name": "Reclamation Site",
+    "type": "Adaptation",
+    "cost": "0",
+    "faction": "Neutral",
+    "rarity": "Common",
+    "size": 0,
+    "mobility": 0,
+    "energy": 1
+  },
+  "ADP4": {
+    "id": "ADP4",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Dormant Core",
+        "type": "Adaptation",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/ADP_Dormant_Core.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Dormant Core",
+    "type": "Adaptation",
+    "cost": "1",
+    "faction": "Neutral",
+    "rarity": "Common",
+    "size": 1,
+    "mobility": 0,
+    "energy": 3
+  },
+  "ADP5": {
+    "id": "ADP5",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Feed Vat",
+        "type": "Adaptation",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/ADP_Feed_Vat.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Feed Vat",
+    "type": "Adaptation",
+    "cost": "1",
+    "faction": "Neutral",
+    "rarity": "Common",
+    "size": 1,
+    "mobility": 0,
+    "energy": 1
+  },
+  "ADP6": {
+    "id": "ADP6",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Firewall Cache",
+        "type": "Adaptation",
+        "cost": "2",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/ADP_Firewall_Cache.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Firewall Cache",
     "type": "Adaptation",
     "cost": "2",
     "faction": "Neutral",
     "rarity": "Common",
     "size": 2,
-    "mobility": 0
+    "mobility": 0,
+    "energy": 4
   },
-  "A03": {
-    "id": "A03",
+  "ADP7": {
+    "id": "ADP7",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Adaptation 3",
+        "name": "Uplink Array",
         "type": "Adaptation",
-        "cost": "3",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/PH_Adaptation_3.png",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/ADP_Uplink_Array.png",
         "isHorizontal": false
       }
     },
-    "name": "Adaptation 3",
+    "name": "Uplink Array",
     "type": "Adaptation",
-    "cost": "3",
+    "cost": "1",
     "faction": "Neutral",
     "rarity": "Common",
-    "size": 3,
-    "mobility": 0
+    "size": 1,
+    "mobility": 0,
+    "energy": 1
   },
-  "A04": {
-    "id": "A04",
+  "ECO1": {
+    "id": "ECO1",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Adaptation 4",
-        "type": "Adaptation",
-        "cost": "4",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/PH_Adaptation_4.png",
+        "name": "Verdant Sector",
+        "type": "Ecosystem",
+        "cost": "0",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/ECO_Verdant_Sector.png",
         "isHorizontal": false
       }
     },
-    "name": "Adaptation 4",
-    "type": "Adaptation",
-    "cost": "4",
+    "name": "Verdant Sector",
+    "type": "Ecosystem",
+    "cost": "0",
     "faction": "Neutral",
-    "rarity": "Common",
-    "size": 4,
+    "rarity": "Rare",
+    "size": 0,
     "mobility": 0
   },
-  "A05": {
-    "id": "A05",
+  "ECO2": {
+    "id": "ECO2",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Adaptation 5",
-        "type": "Adaptation",
-        "cost": "5",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/PH_Adaptation_5.png",
+        "name": "Scorched Sector",
+        "type": "Ecosystem",
+        "cost": "0",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/ECO_Scorched_Sector.png",
         "isHorizontal": false
       }
     },
-    "name": "Adaptation 5",
-    "type": "Adaptation",
-    "cost": "5",
+    "name": "Scorched Sector",
+    "type": "Ecosystem",
+    "cost": "0",
     "faction": "Neutral",
-    "rarity": "Common",
-    "size": 5,
+    "rarity": "Rare",
+    "size": 0,
+    "mobility": 0
+  },
+  "ECO3": {
+    "id": "ECO3",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Null Field",
+        "type": "Ecosystem",
+        "cost": "0",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/ECO_Null_Field.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Null Field",
+    "type": "Ecosystem",
+    "cost": "0",
+    "faction": "Neutral",
+    "rarity": "Rare",
+    "size": 0,
+    "mobility": 0
+  },
+  "ECO4": {
+    "id": "ECO4",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Bastion Grid",
+        "type": "Ecosystem",
+        "cost": "0",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/ECO_Bastion_Grid.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Bastion Grid",
+    "type": "Ecosystem",
+    "cost": "0",
+    "faction": "Neutral",
+    "rarity": "Rare",
+    "size": 0,
+    "mobility": 0
+  },
+  "ECO5": {
+    "id": "ECO5",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Flux Nexus",
+        "type": "Ecosystem",
+        "cost": "0",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/ECO_Flux_Nexus.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Flux Nexus",
+    "type": "Ecosystem",
+    "cost": "0",
+    "faction": "Neutral",
+    "rarity": "Rare",
+    "size": 0,
     "mobility": 0
   }
 }
