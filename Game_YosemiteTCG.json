@@ -5,7 +5,7 @@
     "backgrounds": [],
     "decksUrl": ""
   },
-  "customHelp": "Green = Harvester (gather energy). Red = Reaper (hunt). When you PLAY a Reaper or Harvester it enters HOME (Just Played). At DUSK (end of your turn) ALL your cards slide to HOME (Can Invade) — from there they may push into TO INVADE (the opponent's area) on a later turn. So: Just Played = this turn's plays only; everything graduates right at Dusk. COUNTERS in order: Energy | Balance. ENERGY = your spendable pool this turn (Raw + Life merged into one to cut clicks) — gain it at Dawn, spend it, convert leftover to Population at Dusk. BALANCE = your score. POPULATION = red pips placed on your Harvesters (this is what accumulates). Treachery = drag the red marker along the 1-10 track (starts on 5). Play 1 Creator from your Creator Deck pile at start of turn. Tokens: black = Death, red pip = Population.",
+  "customHelp": "Green = Harvester (gather energy). Red = Reaper (hunt). When you PLAY a Reaper or Harvester it enters HOME (Just Played). At DUSK (end of your turn) ALL your cards slide to HOME (Can Invade) — from there they may push into TO INVADE (the opponent's area) on a later turn. So: Just Played = this turn's plays only; everything graduates right at Dusk. COUNTERS in order: Energy | Balance. ENERGY = your spendable pool this turn (Raw + Life merged into one to cut clicks) — gain it at Dawn, spend it, convert leftover to Population at Dusk. BALANCE = your score. POPULATION = red pips placed on your Harvesters (this is what accumulates). Treachery = drag the Treachery token (target pip) from the token tray onto the 1-10 track above To Invade (start it on 5). Play 1 Creator from your Creator Deck pile at start of turn. Tokens: target pip = Treachery, red pip = Population, black = Death.",
   "cardRotation": 45,
   "cards": {
     "dataUrl": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/CardList.json",
@@ -51,25 +51,24 @@
             "destination": "CreatorDeck",
             "count": 7,
             "isHorizontal": false
-          },
-          {
-            "createCardId": "T001",
-            "destination": "T5",
-            "count": 1,
-            "isHorizontal": false
           }
         ]
       },
       "draggableTokens": [
         {
-          "id": "death",
-          "name": "Death Token",
-          "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/token_death.png"
+          "id": "treachery",
+          "name": "Treachery Marker",
+          "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/token_treachery_pip.png"
         },
         {
           "id": "population",
           "name": "Population",
           "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/token_population.png"
+        },
+        {
+          "id": "death",
+          "name": "Death Token",
+          "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/token_death.png"
         }
       ],
       "newTurn": {
@@ -78,7 +77,7 @@
         "firstPlayerTokenName": "",
         "drawPerTurn": 1
       },
-      "defaultNotes": "Counters: Energy | Balance. Energy = spendable pool this turn (Raw+Life merged); Balance = score. Population = red pips on your Harvesters (what accumulates). Treachery = red marker on the 1-10 track (starts on 5). Draw 1 Creator from pile each turn. Play Reaper/Harvester -> Home (Just Played). At DUSK, slide ALL your cards -> Home (Can Invade). From Can Invade, push into To Invade next turn.",
+      "defaultNotes": "Counters: Energy | Balance. Energy = spendable pool this turn (Raw+Life merged); Balance = score. Population = red pips on your Harvesters (what accumulates). Treachery = drag the Treachery token onto the 1-10 track above To Invade (start on 5). Draw 1 Creator from pile each turn. Play Reaper/Harvester -> Home (Just Played). At DUSK, slide ALL your cards -> Home (Can Invade). From Can Invade, push into To Invade next turn.",
       "tokens": [],
       "countersStartingValues": [
         0,
@@ -152,70 +151,70 @@
                           "section": "T1",
                           "style": {
                             "flex": "1",
-                            "min-height": "6vh"
+                            "min-height": "4vh"
                           }
                         },
                         {
                           "section": "T2",
                           "style": {
                             "flex": "1",
-                            "min-height": "6vh"
+                            "min-height": "4vh"
                           }
                         },
                         {
                           "section": "T3",
                           "style": {
                             "flex": "1",
-                            "min-height": "6vh"
+                            "min-height": "4vh"
                           }
                         },
                         {
                           "section": "T4",
                           "style": {
                             "flex": "1",
-                            "min-height": "6vh"
+                            "min-height": "4vh"
                           }
                         },
                         {
                           "section": "T5",
                           "style": {
                             "flex": "1",
-                            "min-height": "6vh"
+                            "min-height": "4vh"
                           }
                         },
                         {
                           "section": "T6",
                           "style": {
                             "flex": "1",
-                            "min-height": "6vh"
+                            "min-height": "4vh"
                           }
                         },
                         {
                           "section": "T7",
                           "style": {
                             "flex": "1",
-                            "min-height": "6vh"
+                            "min-height": "4vh"
                           }
                         },
                         {
                           "section": "T8",
                           "style": {
                             "flex": "1",
-                            "min-height": "6vh"
+                            "min-height": "4vh"
                           }
                         },
                         {
                           "section": "T9",
                           "style": {
                             "flex": "1",
-                            "min-height": "6vh"
+                            "min-height": "4vh"
                           }
                         },
                         {
                           "section": "T10",
                           "style": {
                             "flex": "1",
-                            "min-height": "6vh"
+                            "min-height": "4vh"
                           }
                         }
                       ]
