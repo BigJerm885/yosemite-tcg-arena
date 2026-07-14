@@ -116,70 +116,70 @@
                   "section": "T1",
                   "style": {
                     "width": "5.2%",
-                    "min-height": "8vh"
+                    "min-height": "3.5vh"
                   }
                 },
                 {
                   "section": "T2",
                   "style": {
                     "width": "5.2%",
-                    "min-height": "8vh"
+                    "min-height": "3.5vh"
                   }
                 },
                 {
                   "section": "T3",
                   "style": {
                     "width": "5.2%",
-                    "min-height": "8vh"
+                    "min-height": "3.5vh"
                   }
                 },
                 {
                   "section": "T4",
                   "style": {
                     "width": "5.2%",
-                    "min-height": "8vh"
+                    "min-height": "3.5vh"
                   }
                 },
                 {
                   "section": "T5",
                   "style": {
                     "width": "5.2%",
-                    "min-height": "8vh"
+                    "min-height": "3.5vh"
                   }
                 },
                 {
                   "section": "T6",
                   "style": {
                     "width": "5.2%",
-                    "min-height": "8vh"
+                    "min-height": "3.5vh"
                   }
                 },
                 {
                   "section": "T7",
                   "style": {
                     "width": "5.2%",
-                    "min-height": "8vh"
+                    "min-height": "3.5vh"
                   }
                 },
                 {
                   "section": "T8",
                   "style": {
                     "width": "5.2%",
-                    "min-height": "8vh"
+                    "min-height": "3.5vh"
                   }
                 },
                 {
                   "section": "T9",
                   "style": {
                     "width": "5.2%",
-                    "min-height": "8vh"
+                    "min-height": "3.5vh"
                   }
                 },
                 {
                   "section": "T10",
                   "style": {
                     "width": "5.2%",
-                    "min-height": "8vh"
+                    "min-height": "3.5vh"
                   }
                 }
               ]
@@ -187,29 +187,29 @@
             {
               "direction": "row",
               "style": {
-                "gap": "8px",
-                "margin-top": "8px"
+                "gap": "6px",
+                "margin-top": "4px"
               },
               "content": [
                 {
                   "section": "HomeNew",
                   "style": {
                     "width": "31%",
-                    "min-height": "20vh"
+                    "min-height": "11vh"
                   }
                 },
                 {
                   "section": "HomeReady",
                   "style": {
                     "width": "38%",
-                    "min-height": "20vh"
+                    "min-height": "11vh"
                   }
                 },
                 {
                   "section": "ToInvade",
                   "style": {
                     "width": "31%",
-                    "min-height": "20vh"
+                    "min-height": "11vh"
                   }
                 }
               ]
@@ -217,22 +217,22 @@
             {
               "direction": "row",
               "style": {
-                "gap": "8px",
-                "margin-top": "8px"
+                "gap": "6px",
+                "margin-top": "4px"
               },
               "content": [
                 {
                   "section": "CreatorDeck",
                   "style": {
                     "width": "12%",
-                    "min-height": "14vh"
+                    "min-height": "9vh"
                   }
                 },
                 {
                   "section": "Creators",
                   "style": {
                     "flex": "1",
-                    "min-height": "14vh"
+                    "min-height": "9vh"
                   }
                 }
               ]
