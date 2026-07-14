@@ -5,7 +5,7 @@
     "backgrounds": [],
     "decksUrl": ""
   },
-  "customHelp": "Green = Harvester (gather energy). Red = Reaper (hunt). When you PLAY a Reaper or Harvester it enters your HOME zone. A creature can't push into TO INVADE (the opponent's area) until your NEXT turn (no invading the turn it's played). COUNTERS in order: Energy | Balance. ENERGY = your spendable pool this turn (Raw + Life merged into one to cut clicks) — gain it at Dawn, spend it, convert leftover to Population at Dusk. BALANCE = your score. POPULATION = red pips placed on your Harvesters (this is what accumulates). Treachery = drag the Treachery token (target pip) from the token tray onto the 1-10 track above To Invade (start it on 5). Play 1 Creator from your Creator Deck pile at start of turn. Tokens: target pip = Treachery, red pip = Population, black = Death.",
+  "customHelp": "Green = Harvester (gather energy). Red = Reaper (hunt). When you PLAY a Reaper or Harvester it enters your HOME zone. A creature can't push into TO INVADE (the opponent's area) until your NEXT turn (no invading the turn it's played). COUNTERS in order: Energy | Balance | Treachery. ENERGY = your spendable pool this turn (Raw + Life merged into one to cut clicks) — gain it at Dawn, spend it, convert leftover to Population at Dusk. BALANCE = your score. TREACHERY = your 1-10 track, STARTS AT 5 — click it up/down as it changes. POPULATION = red pips placed on your Harvesters (this is what accumulates). Play 1 Creator from your Creator Deck pile at start of turn. Tokens: red pip = Population, black = Death.",
   "cardRotation": 45,
   "cards": {
     "dataUrl": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/CardList.json",
@@ -51,21 +51,10 @@
             "destination": "CreatorDeck",
             "count": 7,
             "isHorizontal": false
-          },
-          {
-            "createCardId": "TRK1",
-            "destination": "Treachery",
-            "count": 1,
-            "isHorizontal": true
           }
         ]
       },
       "draggableTokens": [
-        {
-          "id": "treachery",
-          "name": "Treachery Marker",
-          "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/token_treachery_pip.png"
-        },
         {
           "id": "population",
           "name": "Population",
@@ -83,18 +72,18 @@
         "firstPlayerTokenName": "",
         "drawPerTurn": 1
       },
-      "defaultNotes": "Counters: Energy | Balance. Energy = spendable pool this turn (Raw+Life merged); Balance = score. Population = red pips on your Harvesters (what accumulates). Treachery = drag the Treachery pip onto the 1-10 track card above To Invade (start on 5). Draw 1 Creator from pile each turn. Play Reaper/Harvester -> Home. Freshly-played creatures can't push into To Invade until your next turn.",
+      "defaultNotes": "Counters (in order): Energy | Balance | Treachery. Energy = spendable pool this turn (Raw+Life merged); Balance = score; Treachery = 1-10 track, STARTS AT 5, click up/down. Population = red pips on your Harvesters (what accumulates). Draw 1 Creator from pile each turn. Play Reaper/Harvester -> Home. Freshly-played creatures can't push into To Invade until your next turn.",
       "tokens": [],
       "countersStartingValues": [
         0,
-        0
+        0,
+        5
       ],
       "hideFacedDownCards": false,
       "sections": {
         "customSections": [
           "ToInvade",
           "Home",
-          "Treachery",
           "Creators",
           "CreatorDeck"
         ],
@@ -115,27 +104,11 @@
                   }
                 },
                 {
-                  "direction": "column",
+                  "section": "ToInvade",
                   "style": {
-                    "width": "32%",
-                    "gap": "3px"
-                  },
-                  "content": [
-                    {
-                      "section": "Treachery",
-                      "style": {
-                        "min-height": "7vh",
-                        "flex": "0"
-                      }
-                    },
-                    {
-                      "section": "ToInvade",
-                      "style": {
-                        "min-height": "12vh",
-                        "flex": "1"
-                      }
-                    }
-                  ]
+                    "min-height": "13vh",
+                    "width": "32%"
+                  }
                 }
               ]
             },
@@ -353,22 +326,6 @@
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Treachery": {
-            "title": "Treachery",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "displayedTitle": "Treachery",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           }
