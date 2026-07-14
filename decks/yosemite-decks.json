@@ -1,0 +1,391 @@
+[
+  {
+    "title": "Humans — Starter",
+    "id": "humans-starter",
+    "game": "Yosemite TCG",
+    "format": "Standard",
+    "cardCount": 58,
+    "createdAt": "2026-07-13T00:00:00.000Z",
+    "lastModifiedAt": "2026-07-13T00:00:00.000Z",
+    "deckList": {
+      "categoriesOrder": [
+        "Harvester",
+        "Reaper",
+        "Tactic",
+        "Adaptation"
+      ],
+      "Harvester": [
+        {
+          "count": 3,
+          "id": "003"
+        },
+        {
+          "count": 3,
+          "id": "068"
+        },
+        {
+          "count": 3,
+          "id": "006"
+        },
+        {
+          "count": 3,
+          "id": "069"
+        },
+        {
+          "count": 3,
+          "id": "071"
+        },
+        {
+          "count": 3,
+          "id": "002"
+        },
+        {
+          "count": 3,
+          "id": "072"
+        }
+      ],
+      "Reaper": [
+        {
+          "count": 3,
+          "id": "011"
+        },
+        {
+          "count": 3,
+          "id": "075"
+        },
+        {
+          "count": 3,
+          "id": "001"
+        },
+        {
+          "count": 3,
+          "id": "017"
+        },
+        {
+          "count": 3,
+          "id": "073"
+        },
+        {
+          "count": 3,
+          "id": "009"
+        }
+      ],
+      "Tactic": [
+        {
+          "count": 3,
+          "id": "078"
+        },
+        {
+          "count": 3,
+          "id": "077"
+        },
+        {
+          "count": 3,
+          "id": "080"
+        },
+        {
+          "count": 3,
+          "id": "076"
+        }
+      ],
+      "Adaptation": [
+        {
+          "count": 3,
+          "id": "ADP1"
+        },
+        {
+          "count": 2,
+          "id": "ADP2"
+        },
+        {
+          "count": 2,
+          "id": "ADP3"
+        }
+      ]
+    }
+  },
+  {
+    "title": "Savages — Starter",
+    "id": "savages-starter",
+    "game": "Yosemite TCG",
+    "format": "Standard",
+    "cardCount": 52,
+    "createdAt": "2026-07-13T00:00:00.000Z",
+    "lastModifiedAt": "2026-07-13T00:00:00.000Z",
+    "deckList": {
+      "categoriesOrder": [
+        "Harvester",
+        "Reaper",
+        "Tactic",
+        "Adaptation"
+      ],
+      "Harvester": [
+        {
+          "count": 3,
+          "id": "037"
+        },
+        {
+          "count": 3,
+          "id": "038"
+        },
+        {
+          "count": 3,
+          "id": "042"
+        },
+        {
+          "count": 3,
+          "id": "061"
+        },
+        {
+          "count": 3,
+          "id": "056"
+        },
+        {
+          "count": 3,
+          "id": "045"
+        }
+      ],
+      "Reaper": [
+        {
+          "count": 3,
+          "id": "081"
+        },
+        {
+          "count": 3,
+          "id": "066"
+        },
+        {
+          "count": 3,
+          "id": "048"
+        },
+        {
+          "count": 3,
+          "id": "063"
+        }
+      ],
+      "Tactic": [
+        {
+          "count": 3,
+          "id": "085"
+        },
+        {
+          "count": 3,
+          "id": "082"
+        },
+        {
+          "count": 3,
+          "id": "086"
+        },
+        {
+          "count": 3,
+          "id": "083"
+        },
+        {
+          "count": 3,
+          "id": "084"
+        }
+      ],
+      "Adaptation": [
+        {
+          "count": 3,
+          "id": "ADP7"
+        },
+        {
+          "count": 2,
+          "id": "ADP6"
+        },
+        {
+          "count": 2,
+          "id": "ADP1"
+        }
+      ]
+    }
+  },
+  {
+    "title": "Living Earth — Starter",
+    "id": "living-earth-starter",
+    "game": "Yosemite TCG",
+    "format": "Standard",
+    "cardCount": 52,
+    "createdAt": "2026-07-13T00:00:00.000Z",
+    "lastModifiedAt": "2026-07-13T00:00:00.000Z",
+    "deckList": {
+      "categoriesOrder": [
+        "Harvester",
+        "Tactic",
+        "Adaptation"
+      ],
+      "Harvester": [
+        {
+          "count": 3,
+          "id": "097"
+        },
+        {
+          "count": 3,
+          "id": "087"
+        },
+        {
+          "count": 3,
+          "id": "096"
+        },
+        {
+          "count": 3,
+          "id": "089"
+        },
+        {
+          "count": 3,
+          "id": "091"
+        },
+        {
+          "count": 3,
+          "id": "094"
+        },
+        {
+          "count": 3,
+          "id": "088"
+        },
+        {
+          "count": 3,
+          "id": "090"
+        },
+        {
+          "count": 3,
+          "id": "095"
+        },
+        {
+          "count": 3,
+          "id": "092"
+        },
+        {
+          "count": 3,
+          "id": "093"
+        }
+      ],
+      "Tactic": [
+        {
+          "count": 3,
+          "id": "100"
+        },
+        {
+          "count": 3,
+          "id": "101"
+        },
+        {
+          "count": 3,
+          "id": "099"
+        },
+        {
+          "count": 3,
+          "id": "098"
+        }
+      ],
+      "Adaptation": [
+        {
+          "count": 3,
+          "id": "ADP2"
+        },
+        {
+          "count": 2,
+          "id": "ADP5"
+        },
+        {
+          "count": 2,
+          "id": "ADP4"
+        }
+      ]
+    }
+  },
+  {
+    "title": "Regals — Starter",
+    "id": "regals-starter",
+    "game": "Yosemite TCG",
+    "format": "Standard",
+    "cardCount": 49,
+    "createdAt": "2026-07-13T00:00:00.000Z",
+    "lastModifiedAt": "2026-07-13T00:00:00.000Z",
+    "deckList": {
+      "categoriesOrder": [
+        "Harvester",
+        "Reaper",
+        "Gear",
+        "Adaptation"
+      ],
+      "Harvester": [
+        {
+          "count": 3,
+          "id": "031"
+        },
+        {
+          "count": 3,
+          "id": "028"
+        },
+        {
+          "count": 3,
+          "id": "034"
+        }
+      ],
+      "Reaper": [
+        {
+          "count": 3,
+          "id": "103"
+        },
+        {
+          "count": 3,
+          "id": "102"
+        },
+        {
+          "count": 3,
+          "id": "018"
+        },
+        {
+          "count": 3,
+          "id": "029"
+        },
+        {
+          "count": 3,
+          "id": "026"
+        },
+        {
+          "count": 3,
+          "id": "027"
+        },
+        {
+          "count": 3,
+          "id": "036"
+        }
+      ],
+      "Gear": [
+        {
+          "count": 3,
+          "id": "107"
+        },
+        {
+          "count": 3,
+          "id": "104"
+        },
+        {
+          "count": 3,
+          "id": "105"
+        },
+        {
+          "count": 3,
+          "id": "106"
+        }
+      ],
+      "Adaptation": [
+        {
+          "count": 3,
+          "id": "ADP4"
+        },
+        {
+          "count": 2,
+          "id": "ADP7"
+        },
+        {
+          "count": 2,
+          "id": "ADP1"
+        }
+      ]
+    }
+  }
+]
