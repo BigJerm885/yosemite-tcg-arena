@@ -12,14 +12,22 @@
     "cardBack": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/cardback.png"
   },
   "deckBuilding": {
-    "mainFilters": [],
+    "mainFilters": [
+      "faction",
+      "type",
+      "rarity"
+    ],
     "formats": [
       {
         "title": "Standard",
         "gameplay": "Classic",
         "customCategories": [
           "Harvester",
-          "Reaper"
+          "Reaper",
+          "Tactic",
+          "Gear",
+          "Ecosystem",
+          "Adaptation"
         ]
       }
     ]

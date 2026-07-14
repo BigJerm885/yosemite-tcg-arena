@@ -1322,5 +1322,205 @@
     "cost": "2",
     "faction": "Regal",
     "rarity": "Common"
+  },
+  "E01": {
+    "id": "E01",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Ecosystem 1",
+        "type": "Ecosystem",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/PH_Ecosystem_1.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Ecosystem 1",
+    "type": "Ecosystem",
+    "cost": "1",
+    "faction": "Neutral",
+    "rarity": "Common",
+    "size": 1,
+    "mobility": 0
+  },
+  "E02": {
+    "id": "E02",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Ecosystem 2",
+        "type": "Ecosystem",
+        "cost": "2",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/PH_Ecosystem_2.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Ecosystem 2",
+    "type": "Ecosystem",
+    "cost": "2",
+    "faction": "Neutral",
+    "rarity": "Common",
+    "size": 2,
+    "mobility": 0
+  },
+  "E03": {
+    "id": "E03",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Ecosystem 3",
+        "type": "Ecosystem",
+        "cost": "3",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/PH_Ecosystem_3.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Ecosystem 3",
+    "type": "Ecosystem",
+    "cost": "3",
+    "faction": "Neutral",
+    "rarity": "Common",
+    "size": 3,
+    "mobility": 0
+  },
+  "E04": {
+    "id": "E04",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Ecosystem 4",
+        "type": "Ecosystem",
+        "cost": "4",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/PH_Ecosystem_4.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Ecosystem 4",
+    "type": "Ecosystem",
+    "cost": "4",
+    "faction": "Neutral",
+    "rarity": "Common",
+    "size": 4,
+    "mobility": 0
+  },
+  "E05": {
+    "id": "E05",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Ecosystem 5",
+        "type": "Ecosystem",
+        "cost": "5",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/PH_Ecosystem_5.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Ecosystem 5",
+    "type": "Ecosystem",
+    "cost": "5",
+    "faction": "Neutral",
+    "rarity": "Common",
+    "size": 5,
+    "mobility": 0
+  },
+  "A01": {
+    "id": "A01",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Adaptation 1",
+        "type": "Adaptation",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/PH_Adaptation_1.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Adaptation 1",
+    "type": "Adaptation",
+    "cost": "1",
+    "faction": "Neutral",
+    "rarity": "Common",
+    "size": 1,
+    "mobility": 0
+  },
+  "A02": {
+    "id": "A02",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Adaptation 2",
+        "type": "Adaptation",
+        "cost": "2",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/PH_Adaptation_2.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Adaptation 2",
+    "type": "Adaptation",
+    "cost": "2",
+    "faction": "Neutral",
+    "rarity": "Common",
+    "size": 2,
+    "mobility": 0
+  },
+  "A03": {
+    "id": "A03",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Adaptation 3",
+        "type": "Adaptation",
+        "cost": "3",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/PH_Adaptation_3.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Adaptation 3",
+    "type": "Adaptation",
+    "cost": "3",
+    "faction": "Neutral",
+    "rarity": "Common",
+    "size": 3,
+    "mobility": 0
+  },
+  "A04": {
+    "id": "A04",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Adaptation 4",
+        "type": "Adaptation",
+        "cost": "4",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/PH_Adaptation_4.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Adaptation 4",
+    "type": "Adaptation",
+    "cost": "4",
+    "faction": "Neutral",
+    "rarity": "Common",
+    "size": 4,
+    "mobility": 0
+  },
+  "A05": {
+    "id": "A05",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Adaptation 5",
+        "type": "Adaptation",
+        "cost": "5",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/PH_Adaptation_5.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Adaptation 5",
+    "type": "Adaptation",
+    "cost": "5",
+    "faction": "Neutral",
+    "rarity": "Common",
+    "size": 5,
+    "mobility": 0
   }
 }
