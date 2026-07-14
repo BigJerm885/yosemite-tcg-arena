@@ -109,124 +109,125 @@
             {
               "direction": "row",
               "style": {
-                "gap": "4px"
+                "gap": "6px"
               },
               "content": [
                 {
-                  "section": "T1",
+                  "direction": "row",
                   "style": {
-                    "width": "5.2%",
-                    "min-height": "2.6vh",
-                    "max-height": "3.2vh"
-                  }
+                    "width": "68%",
+                    "gap": "6px"
+                  },
+                  "content": [
+                    {
+                      "section": "HomeNew",
+                      "style": {
+                        "min-height": "12vh",
+                        "width": "47%"
+                      }
+                    },
+                    {
+                      "section": "HomeReady",
+                      "style": {
+                        "min-height": "12vh",
+                        "width": "53%"
+                      }
+                    }
+                  ]
                 },
                 {
-                  "section": "T2",
+                  "direction": "column",
                   "style": {
-                    "width": "5.2%",
-                    "min-height": "2.6vh",
-                    "max-height": "3.2vh"
-                  }
-                },
-                {
-                  "section": "T3",
-                  "style": {
-                    "width": "5.2%",
-                    "min-height": "2.6vh",
-                    "max-height": "3.2vh"
-                  }
-                },
-                {
-                  "section": "T4",
-                  "style": {
-                    "width": "5.2%",
-                    "min-height": "2.6vh",
-                    "max-height": "3.2vh"
-                  }
-                },
-                {
-                  "section": "T5",
-                  "style": {
-                    "width": "5.2%",
-                    "min-height": "2.6vh",
-                    "max-height": "3.2vh"
-                  }
-                },
-                {
-                  "section": "T6",
-                  "style": {
-                    "width": "5.2%",
-                    "min-height": "2.6vh",
-                    "max-height": "3.2vh"
-                  }
-                },
-                {
-                  "section": "T7",
-                  "style": {
-                    "width": "5.2%",
-                    "min-height": "2.6vh",
-                    "max-height": "3.2vh"
-                  }
-                },
-                {
-                  "section": "T8",
-                  "style": {
-                    "width": "5.2%",
-                    "min-height": "2.6vh",
-                    "max-height": "3.2vh"
-                  }
-                },
-                {
-                  "section": "T9",
-                  "style": {
-                    "width": "5.2%",
-                    "min-height": "2.6vh",
-                    "max-height": "3.2vh"
-                  }
-                },
-                {
-                  "section": "T10",
-                  "style": {
-                    "width": "5.2%",
-                    "min-height": "2.6vh",
-                    "max-height": "3.2vh"
-                  }
-                }
-              ]
-            },
-            {
-              "direction": "row",
-              "style": {
-                "gap": "6px",
-                "margin-top": "4px"
-              },
-              "content": [
-                {
-                  "section": "HomeNew",
-                  "style": {
-                    "min-height": "10vh",
-                    "max-height": "15vh",
-                    "overflow-y": "auto",
-                    "width": "31%"
-                  }
-                },
-                {
-                  "section": "HomeReady",
-                  "style": {
-                    "min-height": "10vh",
-                    "max-height": "15vh",
-                    "overflow-y": "auto",
-                    "width": "38%"
-                  }
-                },
-                {
-                  "section": "ToInvade",
-                  "style": {
-                    "min-height": "10vh",
-                    "max-height": "15vh",
-                    "overflow-y": "auto",
-                    "width": "31%"
-                  }
+                    "width": "32%",
+                    "gap": "3px"
+                  },
+                  "content": [
+                    {
+                      "direction": "row",
+                      "style": {
+                        "gap": "2px"
+                      },
+                      "content": [
+                        {
+                          "section": "T1",
+                          "style": {
+                            "flex": "1",
+                            "min-height": "6vh"
+                          }
+                        },
+                        {
+                          "section": "T2",
+                          "style": {
+                            "flex": "1",
+                            "min-height": "6vh"
+                          }
+                        },
+                        {
+                          "section": "T3",
+                          "style": {
+                            "flex": "1",
+                            "min-height": "6vh"
+                          }
+                        },
+                        {
+                          "section": "T4",
+                          "style": {
+                            "flex": "1",
+                            "min-height": "6vh"
+                          }
+                        },
+                        {
+                          "section": "T5",
+                          "style": {
+                            "flex": "1",
+                            "min-height": "6vh"
+                          }
+                        },
+                        {
+                          "section": "T6",
+                          "style": {
+                            "flex": "1",
+                            "min-height": "6vh"
+                          }
+                        },
+                        {
+                          "section": "T7",
+                          "style": {
+                            "flex": "1",
+                            "min-height": "6vh"
+                          }
+                        },
+                        {
+                          "section": "T8",
+                          "style": {
+                            "flex": "1",
+                            "min-height": "6vh"
+                          }
+                        },
+                        {
+                          "section": "T9",
+                          "style": {
+                            "flex": "1",
+                            "min-height": "6vh"
+                          }
+                        },
+                        {
+                          "section": "T10",
+                          "style": {
+                            "flex": "1",
+                            "min-height": "6vh"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "section": "ToInvade",
+                      "style": {
+                        "min-height": "12vh",
+                        "flex": "1"
+                      }
+                    }
+                  ]
                 }
               ]
             },
@@ -240,18 +241,14 @@
                 {
                   "section": "CreatorDeck",
                   "style": {
-                    "min-height": "8vh",
-                    "max-height": "13vh",
-                    "overflow-y": "auto",
+                    "min-height": "9vh",
                     "width": "12%"
                   }
                 },
                 {
                   "section": "Creators",
                   "style": {
-                    "min-height": "8vh",
-                    "max-height": "13vh",
-                    "overflow-y": "auto",
+                    "min-height": "9vh",
                     "flex": "1"
                   }
                 }
