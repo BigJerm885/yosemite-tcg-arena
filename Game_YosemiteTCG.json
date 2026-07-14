@@ -5,7 +5,7 @@
     "backgrounds": [],
     "decksUrl": ""
   },
-  "customHelp": "Green = Harvester (gather energy). Red = Reaper (hunt). When you PLAY a Reaper or Harvester it enters your HOME zone. A creature can't push into TO INVADE (the opponent's area) until your NEXT turn (no invading the turn it's played). COUNTERS in order: Energy | Balance | Treachery. ENERGY = your spendable pool this turn (Raw + Life merged into one to cut clicks) — gain it at Dawn, spend it, convert leftover to Population at Dusk. BALANCE = your score. TREACHERY = how HARD YOUR LAND IS TO INVADE (1-10, STARTS AT 5). High = fortified; low = wide open, so you want YOURS high and your opponent's low. Greedy energy (e.g. Overdraw Rig) lowers your own treachery. ECOSYSTEM = you have exactly ONE, a perpetual effect over your whole territory (a battleground) — it sits in its own slot, not in your deck. ADAPTATIONS = your energy sites; play them into Home. POPULATION = red pips placed on your Harvesters (this is what accumulates). Play 1 Creator from your Creator Deck pile at start of turn. Tokens: red pip = Population, black = Death.",
+  "customHelp": "Green = Harvester (gather energy). Red = Reaper (hunt). When you PLAY a Reaper or Harvester it enters your HOME zone. A creature can't push into TO INVADE (the opponent's area) until your NEXT turn (no invading the turn it's played). COUNTERS in order: Energy | Balance | Treachery. ENERGY = your spendable pool this turn (Raw + Life merged into one to cut clicks) — gain it at Dawn, spend it, convert leftover to Population at Dusk. BALANCE = your score. TREACHERY = how HARD YOUR LAND IS TO INVADE (1-10, STARTS AT 5). High = fortified; low = wide open, so you want YOURS high and your opponent's low. Greedy energy (e.g. Overdraw Rig) lowers your own treachery. ADAPTATIONS = a 7-card SIDE DECK (the pile marked Adaptations), NOT your main deck. At DAWN flip the top one: SUN glyph = play it FREE right now; CRESCENT MOON glyph = take it to HAND and pay its cost to play it at DUSK. Played Adaptations sit in your SITES row — that's your energy base. POPULATION = red pips placed on your Harvesters (this is what accumulates). Play 1 Creator from your Creator Deck pile at start of turn. Tokens: red pip = Population, black = Death.",
   "cardRotation": 45,
   "cards": {
     "dataUrl": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/CardList.json",
@@ -25,9 +25,7 @@
           "Harvester",
           "Reaper",
           "Tactic",
-          "Gear",
-          "Ecosystem",
-          "Adaptation"
+          "Gear"
         ]
       }
     ]
@@ -51,6 +49,48 @@
             "destination": "CreatorDeck",
             "count": 7,
             "isHorizontal": false
+          },
+          {
+            "createCardId": "ADP1",
+            "destination": "AdaptDeck",
+            "count": 1,
+            "isHorizontal": false
+          },
+          {
+            "createCardId": "ADP2",
+            "destination": "AdaptDeck",
+            "count": 1,
+            "isHorizontal": false
+          },
+          {
+            "createCardId": "ADP3",
+            "destination": "AdaptDeck",
+            "count": 1,
+            "isHorizontal": false
+          },
+          {
+            "createCardId": "ADP4",
+            "destination": "AdaptDeck",
+            "count": 1,
+            "isHorizontal": false
+          },
+          {
+            "createCardId": "ADP5",
+            "destination": "AdaptDeck",
+            "count": 1,
+            "isHorizontal": false
+          },
+          {
+            "createCardId": "ADP6",
+            "destination": "AdaptDeck",
+            "count": 1,
+            "isHorizontal": false
+          },
+          {
+            "createCardId": "ADP7",
+            "destination": "AdaptDeck",
+            "count": 1,
+            "isHorizontal": false
           }
         ]
       },
@@ -72,7 +112,7 @@
         "firstPlayerTokenName": "",
         "drawPerTurn": 1
       },
-      "defaultNotes": "Counters (in order): Energy | Balance | Treachery. Energy = spendable pool this turn (Raw+Life merged); Balance = score; Treachery = 1-10 track, STARTS AT 5, click up/down. Population = red pips on your Harvesters (what accumulates). Draw 1 Creator from pile each turn. Play Reaper/Harvester -> Home. Freshly-played creatures can't push into To Invade until your next turn.",
+      "defaultNotes": "Counters (in order): Energy | Balance | Treachery. Energy = spendable pool this turn (Raw+Life merged); Balance = score; Treachery = 1-10 track, STARTS AT 5, click up/down. Population = red pips on your Harvesters (what accumulates). ADAPTATIONS = 7-card side deck: flip top at Dawn — SUN = play free now, MOON = to hand, pay cost at Dusk. Played ones go to SITES. Draw 1 Creator from pile each turn. Play Reaper/Harvester -> Home. Freshly-played creatures can't push into To Invade until your next turn.",
       "tokens": [],
       "countersStartingValues": [
         0,
@@ -84,7 +124,8 @@
         "customSections": [
           "ToInvade",
           "Home",
-          "Ecosystem",
+          "Sites",
+          "AdaptDeck",
           "Creators",
           "CreatorDeck"
         ],
@@ -124,21 +165,28 @@
                   "section": "CreatorDeck",
                   "style": {
                     "min-height": "9vh",
-                    "width": "12%"
-                  }
-                },
-                {
-                  "section": "Ecosystem",
-                  "style": {
-                    "min-height": "9vh",
-                    "width": "14%"
+                    "width": "10%"
                   }
                 },
                 {
                   "section": "Creators",
                   "style": {
                     "min-height": "9vh",
-                    "flex": "1"
+                    "width": "30%"
+                  }
+                },
+                {
+                  "section": "AdaptDeck",
+                  "style": {
+                    "min-height": "9vh",
+                    "width": "10%"
+                  }
+                },
+                {
+                  "section": "Sites",
+                  "style": {
+                    "min-height": "9vh",
+                    "width": "50%"
                   }
                 }
               ]
@@ -150,8 +198,7 @@
           "Harvester": "Home",
           "Reaper": "Home",
           "Creator": "Creators",
-          "Ecosystem": "Ecosystem",
-          "Adaptation": "Home"
+          "Adaptation": "Sites"
         },
         "autoPlayFromStack": {},
         "sectionsDict": {
@@ -307,15 +354,31 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "Ecosystem": {
-            "title": "Ecosystem",
+          "AdaptDeck": {
+            "title": "AdaptDeck",
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "DECK",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Adaptations",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Sites": {
+            "title": "Sites",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": false,
-            "displayedTitle": "Ecosystem",
+            "displayedTitle": "Sites",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
