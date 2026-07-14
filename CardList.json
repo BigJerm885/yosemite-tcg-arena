@@ -1,22 +1,4 @@
 {
-  "T001": {
-    "id": "T001",
-    "isToken": true,
-    "face": {
-      "front": {
-        "name": "Treachery Marker",
-        "type": "Marker",
-        "cost": "0",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/token_treachery_marker.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Treachery Marker",
-    "type": "Marker",
-    "cost": "0",
-    "faction": "Neutral",
-    "rarity": "Token"
-  },
   "C001": {
     "id": "C001",
     "isToken": true,
@@ -1522,5 +1504,21 @@
     "rarity": "Common",
     "size": 5,
     "mobility": 0
+  },
+  "TRK1": {
+    "id": "TRK1",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "Treachery Track",
+        "type": "Marker",
+        "cost": "0",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/treachery_track.png",
+        "isHorizontal": true
+      }
+    },
+    "name": "Treachery Track",
+    "type": "Marker",
+    "cost": "0"
   }
 }

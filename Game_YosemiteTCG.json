@@ -5,7 +5,7 @@
     "backgrounds": [],
     "decksUrl": ""
   },
-  "customHelp": "Green = Harvester (gather energy). Red = Reaper (hunt). When you PLAY a Reaper or Harvester it enters HOME (Just Played). At DUSK (end of your turn) ALL your cards slide to HOME (Can Invade) — from there they may push into TO INVADE (the opponent's area) on a later turn. So: Just Played = this turn's plays only; everything graduates right at Dusk. COUNTERS in order: Energy | Balance. ENERGY = your spendable pool this turn (Raw + Life merged into one to cut clicks) — gain it at Dawn, spend it, convert leftover to Population at Dusk. BALANCE = your score. POPULATION = red pips placed on your Harvesters (this is what accumulates). Treachery = drag the Treachery token (target pip) from the token tray onto the 1-10 track above To Invade (start it on 5). Play 1 Creator from your Creator Deck pile at start of turn. Tokens: target pip = Treachery, red pip = Population, black = Death.",
+  "customHelp": "Green = Harvester (gather energy). Red = Reaper (hunt). When you PLAY a Reaper or Harvester it enters your HOME zone. A creature can't push into TO INVADE (the opponent's area) until your NEXT turn (no invading the turn it's played). COUNTERS in order: Energy | Balance. ENERGY = your spendable pool this turn (Raw + Life merged into one to cut clicks) — gain it at Dawn, spend it, convert leftover to Population at Dusk. BALANCE = your score. POPULATION = red pips placed on your Harvesters (this is what accumulates). Treachery = drag the Treachery token (target pip) from the token tray onto the 1-10 track above To Invade (start it on 5). Play 1 Creator from your Creator Deck pile at start of turn. Tokens: target pip = Treachery, red pip = Population, black = Death.",
   "cardRotation": 45,
   "cards": {
     "dataUrl": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/CardList.json",
@@ -51,6 +51,12 @@
             "destination": "CreatorDeck",
             "count": 7,
             "isHorizontal": false
+          },
+          {
+            "createCardId": "TRK1",
+            "destination": "Treachery",
+            "count": 1,
+            "isHorizontal": true
           }
         ]
       },
@@ -77,7 +83,7 @@
         "firstPlayerTokenName": "",
         "drawPerTurn": 1
       },
-      "defaultNotes": "Counters: Energy | Balance. Energy = spendable pool this turn (Raw+Life merged); Balance = score. Population = red pips on your Harvesters (what accumulates). Treachery = drag the Treachery token onto the 1-10 track above To Invade (start on 5). Draw 1 Creator from pile each turn. Play Reaper/Harvester -> Home (Just Played). At DUSK, slide ALL your cards -> Home (Can Invade). From Can Invade, push into To Invade next turn.",
+      "defaultNotes": "Counters: Energy | Balance. Energy = spendable pool this turn (Raw+Life merged); Balance = score. Population = red pips on your Harvesters (what accumulates). Treachery = drag the Treachery pip onto the 1-10 track card above To Invade (start on 5). Draw 1 Creator from pile each turn. Play Reaper/Harvester -> Home. Freshly-played creatures can't push into To Invade until your next turn.",
       "tokens": [],
       "countersStartingValues": [
         0,
@@ -87,20 +93,10 @@
       "sections": {
         "customSections": [
           "ToInvade",
-          "HomeNew",
-          "HomeReady",
+          "Home",
+          "Treachery",
           "Creators",
-          "CreatorDeck",
-          "T1",
-          "T2",
-          "T3",
-          "T4",
-          "T5",
-          "T6",
-          "T7",
-          "T8",
-          "T9",
-          "T10"
+          "CreatorDeck"
         ],
         "layout": {
           "direction": "column",
@@ -112,27 +108,11 @@
               },
               "content": [
                 {
-                  "direction": "row",
+                  "section": "Home",
                   "style": {
-                    "width": "68%",
-                    "gap": "6px"
-                  },
-                  "content": [
-                    {
-                      "section": "HomeNew",
-                      "style": {
-                        "min-height": "12vh",
-                        "width": "47%"
-                      }
-                    },
-                    {
-                      "section": "HomeReady",
-                      "style": {
-                        "min-height": "12vh",
-                        "width": "53%"
-                      }
-                    }
-                  ]
+                    "min-height": "13vh",
+                    "width": "68%"
+                  }
                 },
                 {
                   "direction": "column",
@@ -142,82 +122,11 @@
                   },
                   "content": [
                     {
-                      "direction": "row",
+                      "section": "Treachery",
                       "style": {
-                        "gap": "2px"
-                      },
-                      "content": [
-                        {
-                          "section": "T1",
-                          "style": {
-                            "flex": "1",
-                            "min-height": "4vh"
-                          }
-                        },
-                        {
-                          "section": "T2",
-                          "style": {
-                            "flex": "1",
-                            "min-height": "4vh"
-                          }
-                        },
-                        {
-                          "section": "T3",
-                          "style": {
-                            "flex": "1",
-                            "min-height": "4vh"
-                          }
-                        },
-                        {
-                          "section": "T4",
-                          "style": {
-                            "flex": "1",
-                            "min-height": "4vh"
-                          }
-                        },
-                        {
-                          "section": "T5",
-                          "style": {
-                            "flex": "1",
-                            "min-height": "4vh"
-                          }
-                        },
-                        {
-                          "section": "T6",
-                          "style": {
-                            "flex": "1",
-                            "min-height": "4vh"
-                          }
-                        },
-                        {
-                          "section": "T7",
-                          "style": {
-                            "flex": "1",
-                            "min-height": "4vh"
-                          }
-                        },
-                        {
-                          "section": "T8",
-                          "style": {
-                            "flex": "1",
-                            "min-height": "4vh"
-                          }
-                        },
-                        {
-                          "section": "T9",
-                          "style": {
-                            "flex": "1",
-                            "min-height": "4vh"
-                          }
-                        },
-                        {
-                          "section": "T10",
-                          "style": {
-                            "flex": "1",
-                            "min-height": "4vh"
-                          }
-                        }
-                      ]
+                        "min-height": "7vh",
+                        "flex": "0"
+                      }
                     },
                     {
                       "section": "ToInvade",
@@ -257,8 +166,8 @@
         },
         "categoriesAlreadyOnBoard": [],
         "autoPlayFromHand": {
-          "Harvester": "HomeNew",
-          "Reaper": "HomeNew",
+          "Harvester": "Home",
+          "Reaper": "Home",
           "Creator": "Creators"
         },
         "autoPlayFromStack": {},
@@ -399,31 +308,15 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "HomeNew": {
-            "title": "HomeNew",
+          "Home": {
+            "title": "Home",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": false,
-            "displayedTitle": "Home (Just Played)",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "HomeReady": {
-            "title": "HomeReady",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Home (Can Invade)",
+            "displayedTitle": "Home",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -463,159 +356,15 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "T1": {
-            "title": "T1",
+          "Treachery": {
+            "title": "Treachery",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "1",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "T2": {
-            "title": "T2",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "2",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "T3": {
-            "title": "T3",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "3",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "T4": {
-            "title": "T4",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "4",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "T5": {
-            "title": "T5",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "5",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "T6": {
-            "title": "T6",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "6",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "T7": {
-            "title": "T7",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "7",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "T8": {
-            "title": "T8",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "8",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "T9": {
-            "title": "T9",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "9",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "T10": {
-            "title": "T10",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "10",
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Treachery",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
