@@ -165,9 +165,12 @@
         "autoPlayFromHand": {
           "Harvester": "Home",
           "Reaper": "Home",
-          "Creator": "Creators"
+          "Creator": "Creators",
+          "Adaptation": "Sites"
         },
-        "autoPlayFromStack": {},
+        "autoPlayFromStack": {
+          "Adaptation": "Sites"
+        },
         "sectionsDict": {
           "Hand": {
             "isDefaultSection": true,
