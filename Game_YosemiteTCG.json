@@ -50,7 +50,14 @@
         }
       },
       "beforeGameStart": {
-        "initialBoardSetup": []
+        "initialBoardSetup": [
+          {
+            "createCardId": "REF1",
+            "destination": "Reference",
+            "count": 1,
+            "isHorizontal": false
+          }
+        ]
       },
       "draggableTokens": [
         {
@@ -83,7 +90,8 @@
           "ToInvade",
           "Home",
           "Adaptations",
-          "Adaptation"
+          "Adaptation",
+          "Reference"
         ],
         "layout": {
           "direction": "column",
@@ -98,14 +106,21 @@
                   "section": "Home",
                   "style": {
                     "min-height": "13vh",
-                    "width": "68%"
+                    "width": "60%"
                   }
                 },
                 {
                   "section": "ToInvade",
                   "style": {
                     "min-height": "13vh",
-                    "width": "32%"
+                    "width": "30%"
+                  }
+                },
+                {
+                  "section": "Reference",
+                  "style": {
+                    "min-height": "13vh",
+                    "width": "10%"
                   }
                 }
               ]
@@ -324,6 +339,22 @@
             "noAutoPayTo": false,
             "isHorizontalAllowed": false,
             "displayedTitle": "Adaptations",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Reference": {
+            "title": "Reference",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Turn Order",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
