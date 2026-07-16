@@ -1287,6 +1287,22 @@
     "faction": "Regal",
     "rarity": "Common"
   },
+  "REF1": {
+    "id": "REF1",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "Turn Order",
+        "type": "Reference",
+        "cost": "0",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/REF_turn_order.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Turn Order",
+    "type": "Reference",
+    "cost": "0"
+  },
   "ADP1": {
     "id": "ADP1",
     "isToken": false,
@@ -1440,21 +1456,5 @@
     "mobility": 0,
     "energy": 4,
     "timing": "moon"
-  },
-  "REF1": {
-    "id": "REF1",
-    "isToken": true,
-    "face": {
-      "front": {
-        "name": "Turn Order",
-        "type": "Reference",
-        "cost": "0",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/REF_turn_order.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Turn Order",
-    "type": "Reference",
-    "cost": "0"
   }
 }
