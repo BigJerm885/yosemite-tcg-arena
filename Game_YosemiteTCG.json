@@ -124,25 +124,18 @@
                   "section": "Home",
                   "style": {
                     "min-height": "13vh",
-                    "width": "54%"
+                    "width": "60%"
                   }
                 },
                 {
                   "section": "ToInvade",
                   "style": {
                     "min-height": "13vh",
-                    "width": "28%"
+                    "width": "31%"
                   }
                 },
                 {
                   "section": "Treachery",
-                  "style": {
-                    "min-height": "13vh",
-                    "width": "9%"
-                  }
-                },
-                {
-                  "section": "Reference",
                   "style": {
                     "min-height": "13vh",
                     "width": "9%"
@@ -169,6 +162,13 @@
                   "style": {
                     "min-height": "9vh",
                     "flex": "1"
+                  }
+                },
+                {
+                  "section": "Reference",
+                  "style": {
+                    "min-height": "9vh",
+                    "width": "9%"
                   }
                 }
               ]
@@ -359,7 +359,7 @@
             "title": "Adaptations",
             "isHidden": "no",
             "height": "SMALL",
-            "alignment": "CENTER",
+            "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": false,
