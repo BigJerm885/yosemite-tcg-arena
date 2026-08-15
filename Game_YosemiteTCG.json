@@ -69,16 +69,6 @@
       },
       "draggableTokens": [
         {
-          "id": "treachery5",
-          "name": "Treachery 5",
-          "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/token_treachery_5.png"
-        },
-        {
-          "id": "treachery1",
-          "name": "Treachery 1",
-          "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/token_treachery_1.png"
-        },
-        {
           "id": "population",
           "name": "Population",
           "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/token_population.png"
