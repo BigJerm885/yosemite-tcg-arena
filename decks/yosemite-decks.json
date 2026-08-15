@@ -4,7 +4,7 @@
     "id": "humans-starter",
     "game": "Yosemite TCG",
     "format": "Standard",
-    "cardCount": 51,
+    "cardCount": 50,
     "createdAt": "2026-07-13T00:00:00.000Z",
     "lastModifiedAt": "2026-07-13T00:00:00.000Z",
     "deckList": {
@@ -76,7 +76,7 @@
           "id": "078"
         },
         {
-          "count": 3,
+          "count": 2,
           "id": "077"
         },
         {
@@ -109,7 +109,7 @@
     "id": "savages-starter",
     "game": "Yosemite TCG",
     "format": "Standard",
-    "cardCount": 45,
+    "cardCount": 50,
     "createdAt": "2026-07-13T00:00:00.000Z",
     "lastModifiedAt": "2026-07-13T00:00:00.000Z",
     "deckList": {
@@ -121,15 +121,15 @@
       ],
       "Harvester": [
         {
-          "count": 3,
+          "count": 4,
           "id": "037"
         },
         {
-          "count": 3,
+          "count": 4,
           "id": "038"
         },
         {
-          "count": 3,
+          "count": 4,
           "id": "042"
         },
         {
@@ -151,11 +151,11 @@
           "id": "081"
         },
         {
-          "count": 3,
+          "count": 4,
           "id": "066"
         },
         {
-          "count": 3,
+          "count": 4,
           "id": "048"
         },
         {
@@ -206,7 +206,7 @@
     "id": "living-earth-starter",
     "game": "Yosemite TCG",
     "format": "Standard",
-    "cardCount": 45,
+    "cardCount": 50,
     "createdAt": "2026-07-13T00:00:00.000Z",
     "lastModifiedAt": "2026-07-13T00:00:00.000Z",
     "deckList": {
@@ -217,19 +217,19 @@
       ],
       "Harvester": [
         {
-          "count": 3,
+          "count": 4,
           "id": "097"
         },
         {
-          "count": 3,
+          "count": 4,
           "id": "087"
         },
         {
-          "count": 3,
+          "count": 4,
           "id": "096"
         },
         {
-          "count": 3,
+          "count": 4,
           "id": "089"
         },
         {
@@ -237,7 +237,7 @@
           "id": "091"
         },
         {
-          "count": 3,
+          "count": 4,
           "id": "094"
         },
         {
@@ -300,7 +300,7 @@
     "id": "regals-starter",
     "game": "Yosemite TCG",
     "format": "Standard",
-    "cardCount": 42,
+    "cardCount": 50,
     "createdAt": "2026-07-13T00:00:00.000Z",
     "lastModifiedAt": "2026-07-13T00:00:00.000Z",
     "deckList": {
@@ -312,11 +312,11 @@
       ],
       "Harvester": [
         {
-          "count": 3,
+          "count": 4,
           "id": "031"
         },
         {
-          "count": 3,
+          "count": 4,
           "id": "028"
         },
         {
@@ -326,27 +326,27 @@
       ],
       "Reaper": [
         {
-          "count": 3,
+          "count": 4,
           "id": "103"
         },
         {
-          "count": 3,
+          "count": 4,
           "id": "102"
         },
         {
-          "count": 3,
+          "count": 4,
           "id": "018"
         },
         {
-          "count": 3,
+          "count": 4,
           "id": "029"
         },
         {
-          "count": 3,
+          "count": 4,
           "id": "026"
         },
         {
-          "count": 3,
+          "count": 4,
           "id": "027"
         },
         {
