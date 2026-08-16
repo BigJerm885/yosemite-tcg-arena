@@ -1310,6 +1310,22 @@
     "type": "Reference",
     "cost": "0"
   },
+  "TRK1": {
+    "id": "TRK1",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "Treachery",
+        "type": "Reference",
+        "cost": "0",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/TRK_treachery.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Treachery",
+    "type": "Reference",
+    "cost": "0"
+  },
   "ADP1": {
     "id": "ADP1",
     "isToken": false,
@@ -1464,20 +1480,26 @@
     "energy": 4,
     "timing": "moon"
   },
-  "TRK1": {
-    "id": "TRK1",
-    "isToken": true,
+  "ADP8": {
+    "id": "ADP8",
+    "isToken": false,
     "face": {
       "front": {
-        "name": "Treachery",
-        "type": "Reference",
+        "name": "Hallowed Grounds",
+        "type": "Adaptation",
         "cost": "0",
-        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/TRK_treachery.png",
+        "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/ADP_Hallowed_Grounds.png",
         "isHorizontal": false
       }
     },
-    "name": "Treachery",
-    "type": "Reference",
-    "cost": "0"
+    "name": "Hallowed Grounds",
+    "type": "Adaptation",
+    "cost": "0",
+    "faction": "Neutral",
+    "rarity": "Common",
+    "size": 0,
+    "mobility": 0,
+    "energy": 1,
+    "timing": "sun"
   }
 }
