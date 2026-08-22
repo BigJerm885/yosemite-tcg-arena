@@ -1507,14 +1507,14 @@
   "isToken": false,
   "face": {
    "front": {
-    "name": "Aldous",
+    "name": "Aldous, Hero's Mentor",
     "type": "Harvester",
     "cost": "1",
-    "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Human_Aldous.png",
+    "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Human_Aldous_Hero_s_Mentor.png",
     "isHorizontal": false
    }
   },
-  "name": "Aldous",
+  "name": "Aldous, Hero's Mentor",
   "type": "Harvester",
   "cost": "1",
   "faction": "Human",
@@ -1529,14 +1529,14 @@
   "face": {
    "front": {
     "name": "Caelan",
-    "type": "Reaper",
+    "type": "Harvester",
     "cost": "1",
     "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Human_Caelan.png",
     "isHorizontal": false
    }
   },
   "name": "Caelan",
-  "type": "Reaper",
+  "type": "Harvester",
   "cost": "1",
   "faction": "Human",
   "rarity": "Rare",
