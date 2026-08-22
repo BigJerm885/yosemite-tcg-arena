@@ -1677,14 +1677,14 @@
    "front": {
     "name": "Caelan's Arrow",
     "type": "Gear",
-    "cost": "3",
+    "cost": "2",
     "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Human_Caelan_s_Arrow.png",
     "isHorizontal": false
    }
   },
   "name": "Caelan's Arrow",
   "type": "Gear",
-  "cost": "3",
+  "cost": "2",
   "faction": "Human",
   "rarity": "Rare",
   "subfaction": "Enhanced"
@@ -1696,14 +1696,14 @@
    "front": {
     "name": "Dalain's Spear",
     "type": "Gear",
-    "cost": "2",
+    "cost": "3",
     "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Human_Dalain_s_Spear.png",
     "isHorizontal": false
    }
   },
   "name": "Dalain's Spear",
   "type": "Gear",
-  "cost": "2",
+  "cost": "3",
   "faction": "Human",
   "rarity": "Rare",
   "subfaction": "Enhanced"
@@ -1715,14 +1715,14 @@
    "front": {
     "name": "Fenn's Mount",
     "type": "Gear",
-    "cost": "1",
+    "cost": "3",
     "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Human_Fenn_s_Mount.png",
     "isHorizontal": false
    }
   },
   "name": "Fenn's Mount",
   "type": "Gear",
-  "cost": "1",
+  "cost": "3",
   "faction": "Human",
   "rarity": "Common",
   "subfaction": "Enhanced"
@@ -1734,14 +1734,14 @@
    "front": {
     "name": "Merid's Warhammer",
     "type": "Gear",
-    "cost": "3",
+    "cost": "5",
     "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Human_Merid_s_Warhammer.png",
     "isHorizontal": false
    }
   },
   "name": "Merid's Warhammer",
   "type": "Gear",
-  "cost": "3",
+  "cost": "5",
   "faction": "Human",
   "rarity": "Mythic",
   "subfaction": "Enhanced"
@@ -1772,14 +1772,14 @@
    "front": {
     "name": "Riphen's Bloodaxe",
     "type": "Gear",
-    "cost": "1",
+    "cost": "3",
     "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Human_Riphen_s_Bloodaxe.png",
     "isHorizontal": false
    }
   },
   "name": "Riphen's Bloodaxe",
   "type": "Gear",
-  "cost": "1",
+  "cost": "3",
   "faction": "Human",
   "rarity": "Common",
   "subfaction": "Enhanced"
