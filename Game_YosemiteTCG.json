@@ -1,400 +1,404 @@
 {
-  "name": "Yosemite TCG",
-  "menuBackgroundImage": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/banner.png",
-  "defaultRessources": {
-    "backgrounds": [
-      "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/backgrounds/mat_factions.jpg",
-      "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/backgrounds/mat_table.jpg",
-      "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/backgrounds/mat_human.jpg",
-      "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/backgrounds/mat_savage.jpg",
-      "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/backgrounds/mat_livingearth.jpg",
-      "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/backgrounds/mat_regal.jpg"
-    ],
-    "decksUrl": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/decks/yosemite-decks.json"
-  },
-  "customHelp": "=== FIRST-GAME SETUP === (1) Open the Decks menu and load a Starter deck (Humans / Savages / Living Earth / Regals). (2) Your ADAPTATION DECK (the 7 Adaptation cards you built) starts FACE DOWN in its own pile (bottom-left) automatically — separate from your main deck, never shuffled in or drawn to hand. (3) TREACHERY: a Treachery card is pinned top-right for each player. Set it to 5 at the start of the game and raise/lower it during play by toggling counter 1 on that card. (4) MULLIGAN: you may put back any number of cards from your opening hand once, then draw that many replacements. (5) The pinned Turn Order card FLIPS — the back is the keyword glossary (Rush, Taunt, First Strike, Defender, Precise Hunter, Abundant X, Lethal +X, Duelist, Efficiency +X, Hunger +X). You need a 2nd player on the same game link (custom games have no public matchmaking) — or play both sides solo to learn. Arena does NOT enforce rules; you run the turn yourselves. === HOW TO PLAY === Green = Harvester (gather energy). Red = Reaper (hunt). When you PLAY a Reaper or Harvester it enters your HOME zone. A creature can't push into TO INVADE (the opponent's area) until your NEXT turn (no invading the turn it's played). COUNTERS (bottom strip, unlabeled, in order): Energy | VP. ENERGY = your spendable pool this turn — gain it at Dawn, spend it, convert leftover to Population at Dusk. VP = your score. TREACHERY IS NOT ONE OF THE TWO COUNTERS — it lives on the pinned Treachery CARD in the top-right cell: toggle counter 1 on that card to raise or lower it. It runs 1-10 and STARTS AT 5. Treachery = how HARD YOUR LAND IS TO INVADE. INVASION FORMULA: the invader's Mobility MINUS the opponent's Treachery = population lost, minimum 0 — so high treachery blunts fast invaders, and low treachery leaves you wide open. You want YOURS high and your opponent's low. Greedy energy (e.g. Overdraw Rig) lowers your own treachery. Both players' Treachery cards are visible, so you can always read the opponent's before choosing where to invade. ADAPTATIONS = your energy sites (formerly called Creators — same thing, one name now). You BUILD a 7-card Adaptation Deck in the deckbuilder (Adaptation category, multiples allowed) — at game start it routes to its OWN face-down pile at bottom-left. At DAWN, play the top one: it flips face up and lands in your ADAPTATIONS zone automatically. SUN glyph = FREE; CRESCENT MOON glyph = goes to your HAND instead, pay its cost to play it at DUSK. The Adaptations zone is your energy base. POPULATION = red pips placed on your Harvesters (this is what accumulates). Tokens: red pip = Population, black = Death.",
-  "cardRotation": 45,
-  "cards": {
-    "dataUrl": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/CardList.json",
-    "cardBack": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/cardback.png"
-  },
-  "deckBuilding": {
-    "mainFilters": [
-      "faction",
-      "type",
-      "rarity"
-    ],
-    "formats": [
-      {
-        "title": "Standard",
-        "gameplay": "Classic",
-        "customCategories": [
-          "Harvester",
-          "Reaper",
-          "Tactic",
-          "Gear",
-          "Adaptation"
-        ]
-      }
+ "name": "Yosemite TCG",
+ "menuBackgroundImage": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/banner.png",
+ "defaultRessources": {
+  "backgrounds": [
+   "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/backgrounds/mat_factions.jpg",
+   "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/backgrounds/mat_table.jpg",
+   "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/backgrounds/mat_human.jpg",
+   "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/backgrounds/mat_savage.jpg",
+   "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/backgrounds/mat_livingearth.jpg",
+   "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/backgrounds/mat_regal.jpg"
+  ],
+  "decksUrl": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/decks/yosemite-decks.json"
+ },
+ "customHelp": "=== FIRST-GAME SETUP === (1) Open the Decks menu and load a Starter deck (Humans / Savages / Living Earth / Regals). (2) Your ADAPTATION DECK (the 7 Adaptation cards you built) starts FACE DOWN in its own pile (bottom-left) automatically \u2014 separate from your main deck, never shuffled in or drawn to hand. (3) TREACHERY: a Treachery card is pinned top-right for each player. Set it to 5 at the start of the game and raise/lower it during play by toggling counter 1 on that card. (4) MULLIGAN: you may put back any number of cards from your opening hand once, then draw that many replacements. (5) The pinned Turn Order card FLIPS \u2014 the back is the keyword glossary (Rush, Taunt, First Strike, Defender, Precise Hunter, Abundant X, Lethal +X, Duelist, Efficiency +X, Hunger +X). You need a 2nd player on the same game link (custom games have no public matchmaking) \u2014 or play both sides solo to learn. Arena does NOT enforce rules; you run the turn yourselves. === HOW TO PLAY === Green = Harvester (gather energy). Red = Reaper (hunt). When you PLAY a Reaper or Harvester it enters your HOME zone. A creature can't push into TO INVADE (the opponent's area) until your NEXT turn (no invading the turn it's played). COUNTERS (bottom strip, unlabeled, in order): Energy | VP. ENERGY = your spendable pool this turn \u2014 gain it at Dawn, spend it, convert leftover to Population at Dusk. VP = your score. TREACHERY IS NOT ONE OF THE TWO COUNTERS \u2014 it lives on the pinned Treachery CARD in the top-right cell: toggle counter 1 on that card to raise or lower it. It runs 1-10 and STARTS AT 5. Treachery = how HARD YOUR LAND IS TO INVADE. INVASION FORMULA: the invader's Mobility MINUS the opponent's Treachery = population lost, minimum 0 \u2014 so high treachery blunts fast invaders, and low treachery leaves you wide open. You want YOURS high and your opponent's low. Greedy energy (e.g. Overdraw Rig) lowers your own treachery. Both players' Treachery cards are visible, so you can always read the opponent's before choosing where to invade. ADAPTATIONS = your energy sites (formerly called Creators \u2014 same thing, one name now). You BUILD a 7-card Adaptation Deck in the deckbuilder (Adaptation category, multiples allowed) \u2014 at game start it routes to its OWN face-down pile at bottom-left. At DAWN, play the top one: it flips face up and lands in your ADAPTATIONS zone automatically. SUN glyph = FREE; CRESCENT MOON glyph = goes to your HAND instead, pay its cost to play it at DUSK. The Adaptations zone is your energy base. POPULATION = red pips placed on your Harvesters (this is what accumulates). Tokens: red pip = Population, black = Death.",
+ "cardRotation": 45,
+ "cards": {
+  "dataUrl": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/CardList.json",
+  "cardBack": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/cardback.png"
+ },
+ "deckBuilding": {
+  "mainFilters": [
+   "faction",
+   "type",
+   "rarity"
+  ],
+  "formats": [
+   {
+    "title": "Standard",
+    "gameplay": "Classic",
+    "customCategories": [
+     "Harvester",
+     "Reaper",
+     "Tactic",
+     "Gear",
+     "Adaptation"
     ]
-  },
-  "gameplay": {
-    "Classic": {
-      "mulligan": {
-        "info": "Select any cards to put back, then draw that many. Once per game.   ***  CHECK FIRST: your ADAPTATION pile (bottom-left) should hold 7 cards. If it's empty, concede now and add Adaptations to your deck.",
-        "startingHandSize": 7,
-        "drawNewHand": false,
-        "drawNewSelectedCards": true,
-        "putSelectionAtBottom": false,
-        "mulliganCount": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "beforeGameStart": {
-        "initialBoardSetup": [
-          {
-            "createCardId": "REF1",
-            "destination": "Reference",
-            "count": 1,
-            "isHorizontal": false
-          },
-          {
-            "createCardId": "TRK1",
-            "destination": "Treachery",
-            "count": 1,
-            "isHorizontal": false
-          }
-        ]
-      },
-      "draggableTokens": [
-        {
-          "id": "population",
-          "name": "Population",
-          "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/token_population.png"
-        },
-        {
-          "id": "death",
-          "name": "Death Token",
-          "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/token_death.png"
-        }
-      ],
-      "newTurn": {
-        "drawOnStart": false,
-        "sharedTurn": false,
-        "firstPlayerTokenName": "",
-        "drawPerTurn": 1
-      },
-      "defaultNotes": "Counters (in order): Energy | VP. Energy = spendable pool this turn; VP = score. TREACHERY is not one of the two counters — it lives on the pinned card top-right: toggle counter 1 on that card. STARTS AT 5, range 1-10. INVASION: Mobility - opponent's Treachery = population lost (minimum 0). Population = red pips on your Harvesters (what accumulates). ADAPTATIONS = build a 7-card Adaptation Deck in the deckbuilder (multiples allowed); it auto-parks FACE DOWN bottom-left. At Dawn play the top card — it lands in the Adaptations zone automatically. SUN = free; MOON = to hand, pay cost at Dusk. Play Reaper/Harvester -> Home. Freshly-played creatures can't push into To Invade until your next turn (unless they have Rush). FLIP the Turn Order card for the keyword glossary.",
-      "tokens": [],
-      "countersStartingValues": [
-        0,
-        0
-      ],
-      "hideFacedDownCards": false,
-      "sections": {
-        "customSections": [
-          "ToInvade",
-          "Home",
-          "Adaptations",
-          "Adaptation",
-          "Reference",
-          "Treachery"
-        ],
-        "layout": {
-          "direction": "column",
-          "content": [
-            {
-              "direction": "row",
-              "style": {
-                "gap": "6px"
-              },
-              "content": [
-                {
-                  "section": "Home",
-                  "style": {
-                    "min-height": "13vh",
-                    "width": "60%"
-                  }
-                },
-                {
-                  "section": "ToInvade",
-                  "style": {
-                    "min-height": "13vh",
-                    "width": "31%"
-                  }
-                },
-                {
-                  "section": "Treachery",
-                  "style": {
-                    "min-height": "13vh",
-                    "width": "9%"
-                  }
-                }
-              ]
-            },
-            {
-              "direction": "row",
-              "style": {
-                "gap": "6px",
-                "margin-top": "4px"
-              },
-              "content": [
-                {
-                  "section": "Adaptation",
-                  "style": {
-                    "min-height": "9vh",
-                    "width": "10%"
-                  }
-                },
-                {
-                  "section": "Adaptations",
-                  "style": {
-                    "min-height": "9vh",
-                    "flex": "1"
-                  }
-                },
-                {
-                  "section": "Reference",
-                  "style": {
-                    "min-height": "9vh",
-                    "width": "9%"
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        "categoriesAlreadyOnBoard": [
-          "Adaptation"
-        ],
-        "autoPlayFromHand": {
-          "Harvester": "Home",
-          "Reaper": "Home",
-          "Adaptation": "Adaptations"
-        },
-        "autoPlayFromStack": {
-          "Adaptation": "Adaptations"
-        },
-        "sectionsDict": {
-          "Hand": {
-            "isDefaultSection": true,
-            "title": "Hand",
-            "isHidden": "opponent-only",
-            "height": "DEFAULT",
-            "alignment": "CENTER",
-            "autoPayFrom": true,
-            "isHorizontalAllowed": false,
-            "isGroupForbidden": true,
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "displayedTitle": "",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Discard": {
-            "isDefaultSection": true,
-            "title": "Discard",
-            "isHidden": "no",
-            "height": "DEFAULT",
-            "alignment": "DECK",
-            "isHorizontalAllowed": false,
-            "isGroupForbidden": true,
-            "noAutoPayTo": true,
-            "opponentAlignment": false,
-            "displayedTitle": "Discard",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Deck": {
-            "isDefaultSection": true,
-            "title": "Deck",
-            "isHidden": "yes",
-            "height": "DEFAULT",
-            "alignment": "NONE",
-            "isHorizontalAllowed": false,
-            "isGroupForbidden": true,
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "displayedTitle": "",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Stack": {
-            "isDefaultSection": true,
-            "title": "Stack",
-            "isHidden": "yes",
-            "height": "none",
-            "alignment": "NONE",
-            "isHorizontalAllowed": false,
-            "isGroupForbidden": true,
-            "displayedTitle": "Stack",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Exile": {
-            "isDefaultSection": true,
-            "title": "Exile",
-            "isHidden": "no",
-            "height": "DEFAULT",
-            "alignment": "NONE",
-            "isHorizontalAllowed": false,
-            "isGroupForbidden": true,
-            "noAutoPayTo": true,
-            "displayedTitle": "Exile",
-            "opponentAlignment": false,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "ExileHidden": {
-            "isDefaultSection": true,
-            "title": "Exile (Hidden)",
-            "isHidden": "yes",
-            "height": "DEFAULT",
-            "alignment": "NONE",
-            "isHorizontalAllowed": false,
-            "isGroupForbidden": true,
-            "noAutoPayTo": true,
-            "displayedTitle": "Exile (Hidden)",
-            "opponentAlignment": false,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Sideboard": {
-            "isDefaultSection": true,
-            "title": "Sideboard",
-            "isHidden": "no",
-            "height": "DEFAULT",
-            "alignment": "NONE",
-            "isHorizontalAllowed": false,
-            "isGroupForbidden": true,
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "displayedTitle": "",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "ToInvade": {
-            "title": "ToInvade",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "To Invade",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Home": {
-            "title": "Home",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Home",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Adaptation": {
-            "title": "Adaptation",
-            "isHidden": "yes",
-            "height": "SMALL",
-            "alignment": "DECK",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Adaptation Deck",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Adaptations": {
-            "title": "Adaptations",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "START",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Adaptations",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Reference": {
-            "title": "Reference",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Turn Order",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Treachery": {
-            "title": "Treachery",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Treachery",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          }
-        }
-      }
+   }
+  ]
+ },
+ "gameplay": {
+  "Classic": {
+   "mulligan": {
+    "info": "Select any cards to put back, then draw that many. Once per game.   ***  CHECK FIRST: your ADAPTATION pile (bottom-left) should hold 7 cards. If it's empty, concede now and add Adaptations to your deck.",
+    "startingHandSize": 7,
+    "drawNewHand": false,
+    "drawNewSelectedCards": true,
+    "putSelectionAtBottom": false,
+    "mulliganCount": {
+     "min": 0,
+     "max": 1
     }
+   },
+   "beforeGameStart": {
+    "initialBoardSetup": [
+     {
+      "createCardId": "REF1",
+      "destination": "Reference",
+      "count": 1,
+      "isHorizontal": false
+     },
+     {
+      "createCardId": "TRK1",
+      "destination": "Treachery",
+      "count": 1,
+      "isHorizontal": false
+     }
+    ]
+   },
+   "draggableTokens": [
+    {
+     "id": "population",
+     "name": "Population",
+     "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/token_population.png"
+    },
+    {
+     "id": "death",
+     "name": "Death Token",
+     "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/token_death.png"
+    }
+   ],
+   "newTurn": {
+    "drawOnStart": false,
+    "sharedTurn": false,
+    "firstPlayerTokenName": "",
+    "drawPerTurn": 1
+   },
+   "defaultNotes": "Counters (in order): Energy | VP. Energy = spendable pool this turn; VP = score. TREACHERY is not one of the two counters \u2014 it lives on the pinned card top-right: toggle counter 1 on that card. STARTS AT 5, range 1-10. INVASION: Mobility - opponent's Treachery = population lost (minimum 0). Population = red pips on your Harvesters (what accumulates). ADAPTATIONS = build a 7-card Adaptation Deck in the deckbuilder (multiples allowed); it auto-parks FACE DOWN bottom-left. At Dawn play the top card \u2014 it lands in the Adaptations zone automatically. SUN = free; MOON = to hand, pay cost at Dusk. Play Reaper/Harvester -> Home. Freshly-played creatures can't push into To Invade until your next turn (unless they have Rush). FLIP the Turn Order card for the keyword glossary.",
+   "tokens": [
+    "SQ1",
+    "REF1",
+    "TRK1"
+   ],
+   "countersStartingValues": [
+    0,
+    0
+   ],
+   "hideFacedDownCards": false,
+   "sections": {
+    "customSections": [
+     "ToInvade",
+     "Home",
+     "Adaptations",
+     "Adaptation",
+     "Reference",
+     "Treachery"
+    ],
+    "layout": {
+     "direction": "column",
+     "content": [
+      {
+       "direction": "row",
+       "style": {
+        "gap": "6px"
+       },
+       "content": [
+        {
+         "section": "Home",
+         "style": {
+          "min-height": "13vh",
+          "width": "60%"
+         }
+        },
+        {
+         "section": "ToInvade",
+         "style": {
+          "min-height": "13vh",
+          "width": "31%"
+         }
+        },
+        {
+         "section": "Treachery",
+         "style": {
+          "min-height": "13vh",
+          "width": "9%"
+         }
+        }
+       ]
+      },
+      {
+       "direction": "row",
+       "style": {
+        "gap": "6px",
+        "margin-top": "4px"
+       },
+       "content": [
+        {
+         "section": "Adaptation",
+         "style": {
+          "min-height": "9vh",
+          "width": "10%"
+         }
+        },
+        {
+         "section": "Adaptations",
+         "style": {
+          "min-height": "9vh",
+          "flex": "1"
+         }
+        },
+        {
+         "section": "Reference",
+         "style": {
+          "min-height": "9vh",
+          "width": "9%"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "categoriesAlreadyOnBoard": [
+     "Adaptation"
+    ],
+    "autoPlayFromHand": {
+     "Harvester": "Home",
+     "Reaper": "Home",
+     "Adaptation": "Adaptations"
+    },
+    "autoPlayFromStack": {
+     "Adaptation": "Adaptations"
+    },
+    "sectionsDict": {
+     "Hand": {
+      "isDefaultSection": true,
+      "title": "Hand",
+      "isHidden": "opponent-only",
+      "height": "DEFAULT",
+      "alignment": "CENTER",
+      "autoPayFrom": true,
+      "isHorizontalAllowed": false,
+      "isGroupForbidden": true,
+      "opponentAlignment": false,
+      "noAutoPayTo": false,
+      "displayedTitle": "",
+      "noQuickActions": false,
+      "enterTapped": false,
+      "enterSpun": false,
+      "keepTappedNewTurn": false,
+      "showHiddenCardInHistory": false
+     },
+     "Discard": {
+      "isDefaultSection": true,
+      "title": "Discard",
+      "isHidden": "no",
+      "height": "DEFAULT",
+      "alignment": "DECK",
+      "isHorizontalAllowed": false,
+      "isGroupForbidden": true,
+      "noAutoPayTo": true,
+      "opponentAlignment": false,
+      "displayedTitle": "Discard",
+      "noQuickActions": false,
+      "enterTapped": false,
+      "enterSpun": false,
+      "keepTappedNewTurn": false,
+      "showHiddenCardInHistory": false
+     },
+     "Deck": {
+      "isDefaultSection": true,
+      "title": "Deck",
+      "isHidden": "yes",
+      "height": "DEFAULT",
+      "alignment": "NONE",
+      "isHorizontalAllowed": false,
+      "isGroupForbidden": true,
+      "opponentAlignment": false,
+      "noAutoPayTo": false,
+      "displayedTitle": "",
+      "noQuickActions": false,
+      "enterTapped": false,
+      "enterSpun": false,
+      "keepTappedNewTurn": false,
+      "showHiddenCardInHistory": false
+     },
+     "Stack": {
+      "isDefaultSection": true,
+      "title": "Stack",
+      "isHidden": "yes",
+      "height": "none",
+      "alignment": "NONE",
+      "isHorizontalAllowed": false,
+      "isGroupForbidden": true,
+      "displayedTitle": "Stack",
+      "opponentAlignment": false,
+      "noAutoPayTo": false,
+      "noQuickActions": false,
+      "enterTapped": false,
+      "enterSpun": false,
+      "keepTappedNewTurn": false,
+      "showHiddenCardInHistory": false
+     },
+     "Exile": {
+      "isDefaultSection": true,
+      "title": "Exile",
+      "isHidden": "no",
+      "height": "DEFAULT",
+      "alignment": "NONE",
+      "isHorizontalAllowed": false,
+      "isGroupForbidden": true,
+      "noAutoPayTo": true,
+      "displayedTitle": "Exile",
+      "opponentAlignment": false,
+      "noQuickActions": false,
+      "enterTapped": false,
+      "enterSpun": false,
+      "keepTappedNewTurn": false,
+      "showHiddenCardInHistory": false
+     },
+     "ExileHidden": {
+      "isDefaultSection": true,
+      "title": "Exile (Hidden)",
+      "isHidden": "yes",
+      "height": "DEFAULT",
+      "alignment": "NONE",
+      "isHorizontalAllowed": false,
+      "isGroupForbidden": true,
+      "noAutoPayTo": true,
+      "displayedTitle": "Exile (Hidden)",
+      "opponentAlignment": false,
+      "noQuickActions": false,
+      "enterTapped": false,
+      "enterSpun": false,
+      "keepTappedNewTurn": false,
+      "showHiddenCardInHistory": false
+     },
+     "Sideboard": {
+      "isDefaultSection": true,
+      "title": "Sideboard",
+      "isHidden": "no",
+      "height": "DEFAULT",
+      "alignment": "NONE",
+      "isHorizontalAllowed": false,
+      "isGroupForbidden": true,
+      "opponentAlignment": false,
+      "noAutoPayTo": false,
+      "displayedTitle": "",
+      "noQuickActions": false,
+      "enterTapped": false,
+      "enterSpun": false,
+      "keepTappedNewTurn": false,
+      "showHiddenCardInHistory": false
+     },
+     "ToInvade": {
+      "title": "ToInvade",
+      "isHidden": "no",
+      "height": "SMALL",
+      "alignment": "CENTER",
+      "opponentAlignment": false,
+      "noAutoPayTo": false,
+      "isHorizontalAllowed": false,
+      "displayedTitle": "To Invade",
+      "noQuickActions": false,
+      "enterTapped": false,
+      "enterSpun": false,
+      "isGroupForbidden": false,
+      "keepTappedNewTurn": false,
+      "showHiddenCardInHistory": false
+     },
+     "Home": {
+      "title": "Home",
+      "isHidden": "no",
+      "height": "SMALL",
+      "alignment": "CENTER",
+      "opponentAlignment": false,
+      "noAutoPayTo": false,
+      "isHorizontalAllowed": false,
+      "displayedTitle": "Home",
+      "noQuickActions": false,
+      "enterTapped": false,
+      "enterSpun": false,
+      "isGroupForbidden": false,
+      "keepTappedNewTurn": false,
+      "showHiddenCardInHistory": false
+     },
+     "Adaptation": {
+      "title": "Adaptation",
+      "isHidden": "yes",
+      "height": "SMALL",
+      "alignment": "DECK",
+      "opponentAlignment": false,
+      "noAutoPayTo": false,
+      "isHorizontalAllowed": false,
+      "displayedTitle": "Adaptation Deck",
+      "noQuickActions": false,
+      "enterTapped": false,
+      "enterSpun": false,
+      "isGroupForbidden": true,
+      "keepTappedNewTurn": false,
+      "showHiddenCardInHistory": false
+     },
+     "Adaptations": {
+      "title": "Adaptations",
+      "isHidden": "no",
+      "height": "SMALL",
+      "alignment": "START",
+      "opponentAlignment": false,
+      "noAutoPayTo": false,
+      "isHorizontalAllowed": false,
+      "displayedTitle": "Adaptations",
+      "noQuickActions": false,
+      "enterTapped": false,
+      "enterSpun": false,
+      "isGroupForbidden": false,
+      "keepTappedNewTurn": false,
+      "showHiddenCardInHistory": false
+     },
+     "Reference": {
+      "title": "Reference",
+      "isHidden": "no",
+      "height": "SMALL",
+      "alignment": "CENTER",
+      "opponentAlignment": false,
+      "noAutoPayTo": false,
+      "isHorizontalAllowed": false,
+      "displayedTitle": "Turn Order",
+      "noQuickActions": false,
+      "enterTapped": false,
+      "enterSpun": false,
+      "isGroupForbidden": false,
+      "keepTappedNewTurn": false,
+      "showHiddenCardInHistory": false
+     },
+     "Treachery": {
+      "title": "Treachery",
+      "isHidden": "no",
+      "height": "SMALL",
+      "alignment": "CENTER",
+      "opponentAlignment": false,
+      "noAutoPayTo": false,
+      "isHorizontalAllowed": false,
+      "displayedTitle": "Treachery",
+      "noQuickActions": false,
+      "enterTapped": false,
+      "enterSpun": false,
+      "isGroupForbidden": false,
+      "keepTappedNewTurn": false,
+      "showHiddenCardInHistory": false
+     }
+    }
+   }
   }
+ }
 }
