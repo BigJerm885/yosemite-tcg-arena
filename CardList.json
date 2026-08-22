@@ -1802,5 +1802,26 @@
   "faction": "Human",
   "rarity": "Legendary",
   "subfaction": "Enhanced"
+ },
+ "SQ1": {
+  "id": "SQ1",
+  "isToken": true,
+  "face": {
+   "front": {
+    "name": "Squire",
+    "type": "Enhanced",
+    "cost": "1",
+    "image": "https://raw.githubusercontent.com/BigJerm885/yosemite-tcg-arena/main/images/V4_Human_Squire.png",
+    "isHorizontal": false
+   }
+  },
+  "name": "Squire",
+  "type": "Enhanced",
+  "cost": "1",
+  "faction": "Human",
+  "rarity": "Token",
+  "subfaction": "Enhanced",
+  "size": 1,
+  "mobility": 4
  }
 }
